@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
     manifest: '/manifest.json',
@@ -36,7 +37,10 @@ export default async function LocaleLayout({children}: any) {
     return (
         <html style={{ height: '100%' }}>
             <body style={{backgroundColor: '#52483F', display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-                {children}
+                <Navbar />
+                <main className='flex-grow pt-16'>
+                    {children}
+                </main>
             </body>
         </html>
     );
