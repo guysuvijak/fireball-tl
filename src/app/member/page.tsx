@@ -39,7 +39,7 @@ const WEAPON_TOOLTIPS: { [key: string]: string } = {
 
 export default function Member() {
     const [members] = useState<Member[]>([
-        { grade: "👑", character: "MeteorVllx", nickname: "ภาย", weapons: ["sns", "gs"], reputation: 12320, role: "DPS" },
+        { grade: "👑", character: "MeteorVllx", nickname: "กาย", weapons: ["sns", "gs"], reputation: 12320, role: "DPS" },
         { grade: "🎓", character: "Penzilgon", nickname: "Jamie Oliver", weapons: ["sns", "wand"], reputation: 47699, role: "Support" },
         { grade: "🎓", character: "B3nZury", nickname: "เบนซ์", weapons: ["dagger", "bow"], reputation: 32976, role: "DPS" },
         { grade: "🛡️", character: "Kypriz", nickname: "หมี", weapons: ["bow", "staff"], reputation: 23316, role: "DPS" },
