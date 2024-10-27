@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.stroke-text {
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000,
+        -2px 0 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        0 2px 0 #000;
+}
+  
+.stroke-text-1 {
+    text-shadow:
+        -1px -1px 0 #00000070,
+        1px -1px 0 #00000070,
+        -1px 1px 0 #00000070,
+        1px 1px 0 #00000070,
+        -1px 0 0 #00000070,
+        1px 0 0 #00000070,
+        0 -1px 0 #00000070,
+        0 1px 0 #00000070;
+}
+
+.react-tooltip {
+    z-index: 100;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.website-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    z-index: 10;
+}
+  
+.website-container::-webkit-scrollbar {
+    width: 10px;
+}
+  
+.website-container::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+  
+.website-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #8b5cf6, #4c1d95);
+    border-radius: 5px;
+}
+  
+.website-container::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #7c3aed, #5b21b6);
+}

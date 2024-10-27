@@ -1,0 +1,52 @@
+:root {
+    /* Default theme (light) */
+    --theme-bg-0:#ffffff;
+    --theme-bg-1:#e3e3eb;
+    --theme-bg-2:#cad1db;
+    --theme-bg-3:#b9c0ce;
+    --theme-bg-4:#ffc6ce;
+    --theme-border:#c6c6c6;
+    --theme-shadow: #00000030;
+    --theme-title:#000000;
+    --theme-title-1: #303657;
+    --theme-subtitle: #7b7b7b;
+    --theme-button: #000000;
+    --theme-button-h: #252525;
+    --theme-button-t: #FFFFFF;
+    --theme-button-d: #808080;
+    --theme-button-50: #00000050;
+    --theme-alert: #ff3852;
+    --theme-alert-h: #e61f3a;
+    --theme-success: #0da10d;
+    --theme-success-h: #098a09;
+    --theme-active: #417df5;
+    --theme-active-h: #5589f0;
+    --theme-loader: #000000;
+    --theme-loader-h: #FFFFFF;
+}
+  
+[data-theme="dark"] {
+    --theme-bg-0:#000000;
+    --theme-bg-1:#1c1c1d;
+    --theme-bg-2:#383d46;
+    --theme-bg-3:#555c68;
+    --theme-bg-4:#ff697e;
+    --theme-border:#494949;
+    --theme-shadow: #FFFFFF15;
+    --theme-title:#ffffff;
+    --theme-title-1:#7a88d7;
+    --theme-subtitle:#bbbbbb;
+    --theme-button:#FFFFFF;
+    --theme-button-h:#cacaca;
+    --theme-button-t: #000000;
+    --theme-button-d: #8f8f8f;
+    --theme-button-50: #FFFFFF50;
+    --theme-alert:#ff3852;
+    --theme-alert-h:#e61f3a;
+    --theme-success: #46c046;
+    --theme-success-h: #37a837;
+    --theme-active:#578df7;
+    --theme-active:#70a0ff;
+    --theme-loader: #FFFFFF;
+    --theme-loader-h: #000000;
+}
