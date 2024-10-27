@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default async function LocaleLayout({children}: any) {
     return (
         <html style={{ height: '100%' }}>
-            <body style={{backgroundColor: '#52483F', display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+            <body style={{display: 'flex', flexDirection: 'column', minHeight: '100vh' }} className='bg-gradient-to-b from-gray-900 to-black'>
                 <Navbar />
                 <main className='flex-grow pt-16'>
                     {children}

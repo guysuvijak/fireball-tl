@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MdOutlineMenu } from 'react-icons/md';
 import { IoMdClose } from 'react-icons/io';
@@ -15,7 +16,8 @@ const navItems = [
 ];
 
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [ isOpen, setIsOpen ] = useState(false);
+    const pathname = usePathname();
 
     const navVariants = {
         hidden: { opacity: 0, y: -20 },
@@ -46,9 +48,15 @@ const Navbar = () => {
         }
     };
 
+    const isActive = (path: string) => {
+        if (path === '/' && pathname === '/') return true;
+        if (path !== '/' && pathname.startsWith(path)) return true;
+        return false;
+    };
+
     return (
         <motion.nav 
-            className="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50"
+            className="fixed w-full bg-[#3b3b3b96] backdrop-blur-sm z-50"
             initial="hidden"
             animate="visible"
             variants={navVariants}
@@ -79,9 +87,25 @@ const Navbar = () => {
                             >
                                 <Link 
                                     href={item.href}
-                                    className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                    className={`px-3 py-2 rounded-md text-sm font-medium relative ${
+                                        isActive(item.href) 
+                                            ? 'text-white' 
+                                            : 'text-gray-300 hover:text-white'
+                                    }`}
                                 >
                                     {item.label}
+                                    {isActive(item.href) && (
+                                        <motion.div
+                                            layoutId="activeTab"
+                                            className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-500"
+                                            initial={false}
+                                            transition={{
+                                                type: "spring",
+                                                stiffness: 500,
+                                                damping: 30
+                                            }}
+                                        />
+                                    )}
                                 </Link>
                             </motion.div>
                         ))}
