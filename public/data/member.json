@@ -27,7 +27,7 @@
         { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "lisaBK", "discord": "oldblueboxlungiis2556", "nickname": "ก้อง", "reputation": 3499, "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "JepDoor", "discord": "topislala", "nickname": "เหินหาว", "reputation": 2936, "weapons": ["longbow", "staff"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "CaCalot", "discord": "", "nickname": "", "reputation": 2789, "weapons": ["staff", "longbow"], "role": "DPS" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Jacriroz7", "discord": "", "nickname": "", "reputation": 2211, "weapons": ["crossbow", "dagger"], "role": "DPS" },
+        { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "Jacriroz7", "discord": "jacriroz", "nickname": "โจ๊กเกอร์", "reputation": 2211, "weapons": ["crossbow", "dagger"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "LASSMUOO", "discord": "", "nickname": "", "reputation": 2158, "weapons": ["swordshield", "wand"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "LanaNewerth", "discord": "nnthphone", "nickname": "นนท์", "reputation": 23974, "weapons": ["crossbow", "dagger"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "GODJINX", "discord": "", "nickname": "", "reputation": 1695, "weapons": ["longbow", "crossbow"], "role": "DPS" },
