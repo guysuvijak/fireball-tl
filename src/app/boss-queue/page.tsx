@@ -135,11 +135,6 @@ const bosses: Boss[] = [
                 name: "Phantom Wolf Mask",
                 queues: [
                     {
-                        character: "B3nZury",
-                        reputation: 37745,
-                        name: "Phantom Wolf Mask"
-                    },
-                    {
                         character: "PaoQ",
                         reputation: 7797,
                         name: "Phantom Wolf Mask"
@@ -283,6 +278,11 @@ const bosses: Boss[] = [
                         character: "Deehom",
                         reputation: 4616,
                         name: "Adentus' Gargantuan Greatsword"
+                    },
+                    {
+                        character: "ManiFiest0",
+                        reputation: 1884,
+                        name: "Adentus' Gargantuan Greatsword"
                     }
                 ]
             },
@@ -304,6 +304,11 @@ const bosses: Boss[] = [
                         reputation: 25382,
                         name: "Shadow Harvester Mask",
                         note: "ต่อคิวใหม่"
+                    },
+                    {
+                        character: "B3nZury",
+                        reputation: 37745,
+                        name: "Phantom Wolf Mask"
                     }
                 ]
             },
