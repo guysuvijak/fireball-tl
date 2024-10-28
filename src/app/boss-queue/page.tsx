@@ -99,7 +99,13 @@ const bosses: Boss[] = [
             },
             {
                 name: "Helm of the Field General",
-                queues: []
+                queues: [
+                    {
+                        character: "BR13",
+                        reputation: 4929,
+                        name: "Helm of the Field General"
+                    }
+                ]
             },
             {
                 name: "Arcane Shadow Shoes",
@@ -117,7 +123,13 @@ const bosses: Boss[] = [
         items: [
             {
                 name: "Talus's Crystalline Staff",
-                queues: []
+                queues: [
+                    {
+                        character: "PunkTalk",
+                        reputation: 6027,
+                        name: "Talus's Crystalline Staff"
+                    }
+                ]
             },
             {
                 name: "Phantom Wolf Mask",
@@ -301,7 +313,13 @@ const bosses: Boss[] = [
             },
             {
                 name: "Girdle of Spectral Skulls",
-                queues: []
+                queues: [
+                    {
+                        character: "RaggaeWiz",
+                        reputation: 6311,
+                        name: "Girdle of Spectral Skulls"
+                    }
+                ]
             }
         ]
     },
@@ -373,7 +391,13 @@ const bosses: Boss[] = [
             },
             {
                 name: "Clasp of the Overlord",
-                queues: []
+                queues: [
+                    {
+                        character: "UraHala",
+                        reputation: 16099,
+                        name: "Clasp of the Overlord"
+                    }
+                ]
             }
         ]
     },
