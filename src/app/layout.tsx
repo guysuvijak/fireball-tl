@@ -5,15 +5,15 @@ import Navbar from '@/components/Navbar';
 export const metadata: Metadata = {
     manifest: '/manifest.json',
     title: 'FIREB4LL - GUILD',
-    description: 'FIREB4LL',
+    description: 'Together, we burn brighter!',
     openGraph: {
         title: 'FIREB4LL',
-        description: 'FIREB4LL',
-        url: 'https://Fireball-tl.vercel.app/',
+        description: 'Together, we burn brighter!',
+        url: 'https://fireball-tl.vercel.app/',
         siteName: 'FIREB4LL',
         images: [
             {
-                url: 'https://discord.com/channels/1295952192158564394/1295980823442620449/1300125877895430267',
+                url: 'https://fireball-tl.vercel.app/assets/logo.png',
                 width: 160,
                 height: 160
             }
@@ -24,12 +24,12 @@ export const metadata: Metadata = {
         { name: 'FIREB4LL' },
         {
             name: 'FIREB4LL',
-            url: 'https://Fireball-tl.vercel.app/',
+            url: 'https://fireball-tl.vercel.app/',
         },
     ],
     icons: [
-        { rel: 'apple-touch-icon', url: 'icon/icon_128x128.png' },
-        { rel: 'icon', url: 'icon/icon_128x128.png' },
+        { rel: 'apple-touch-icon', url: 'icon/icon-128x128.png' },
+        { rel: 'icon', url: 'icon/icon-128x128.png' },
     ],
 }
  
