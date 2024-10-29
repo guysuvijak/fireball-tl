@@ -244,12 +244,13 @@
                     "name": "Adentus' Gargantuan Greatsword",
                     "queues": [
                         {
-                            "character": "Deehom",
-                            "reputation": 4616
-                        },
-                        {
                             "character": "ManiFiest0",
                             "reputation": 1884
+                        },
+                        {
+                            "character": "Deehom",
+                            "reputation": 4616,
+                            "note": ""
                         }
                     ]
                 },
