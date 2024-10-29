@@ -56,6 +56,6 @@
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Dark66", "discord": "", "nickname": "", "reputation": 1117, "weapons": ["dagger", "greatsword"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "xkongS", "discord": "", "nickname": "", "reputation": 167, "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "StxywithZxro", "discord": "", "nickname": "", "reputation": 118, "weapons": ["longbow", "staff"], "role": "DPS" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "SonTeeN", "discord": "", "nickname": "", "reputation": 40, "weapons": ["longbow", "staff"], "role": "DPS" }
+        { "grade": 0, "status": 1, "pve": 60, "pvp": 40, "character": "SonTeeN", "discord": "animari1150", "nickname": "พน", "reputation": 40, "weapons": ["longbow", "staff"], "role": "DPS" }
     ]
 }

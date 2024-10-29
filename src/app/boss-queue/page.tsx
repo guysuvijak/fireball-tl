@@ -1,10 +1,9 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface QueueItem {
-    name: string;
     reputation: number;
     character: string;
     note?: string;
@@ -36,408 +35,30 @@ const item = {
     show: { opacity: 1, y: 0 }
 };
 
-const bosses: Boss[] = [
-    {
-        id: 1,
-        name: "Morokai",
-        items: [
-            {
-                name: "Morokai's Greatblade of Corruption",
-                queues: []
-            },
-            {
-                name: "Arcane Shadow Gloves",
-                queues: []
-            },
-            {
-                name: "Abyssal Grace Pendant",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 2,
-        name: "Excavator-9",
-        items: [
-            {
-                name: "Excavator's Mysterious Scepter",
-                queues: []
-            },
-            {
-                name: "Heroic Breeches of the Resistance",
-                queues: []
-            },
-            {
-                name: "Embossed Granite Band",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 3,
-        name: "Chernobog",
-        items: [
-            {
-                name: "Chernobog's Blade of Beheading",
-                queues: [
-                    {
-                        character: "STREK",
-                        reputation: 6951,
-                        name: "Chernobog's Blade of Beheading"
-                    },
-                    {
-                        character: "DeeJub",
-                        reputation: 4191,
-                        name: "Chernobog's Blade of Beheading"
-                    },
-                    {
-                        character: "RasPK",
-                        reputation: 850,
-                        name: "Chernobog's Blade of Beheading"
-                    }
-                ]
-            },
-            {
-                name: "Helm of the Field General",
-                queues: [
-                    {
-                        character: "BR13",
-                        reputation: 4929,
-                        name: "Helm of the Field General"
-                    }
-                ]
-            },
-            {
-                name: "Arcane Shadow Shoes",
-                queues: []
-            },
-            {
-                name: "Bile Drenched Veil",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 4,
-        name: "Talus",
-        items: [
-            {
-                name: "Talus's Crystalline Staff",
-                queues: [
-                    {
-                        character: "PunkTalk",
-                        reputation: 6027,
-                        name: "Talus's Crystalline Staff"
-                    }
-                ]
-            },
-            {
-                name: "Phantom Wolf Mask",
-                queues: [
-                    {
-                        character: "PaoQ",
-                        reputation: 7797,
-                        name: "Phantom Wolf Mask"
-                    }
-                ]
-            },
-            {
-                name: "Blessed Templar Plate Mail",
-                queues: []
-            },
-            {
-                name: "Forged Golden Bangle",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 5,
-        name: "Malakar",
-        items: [
-            {
-                name: "Malakar's Energizing Crossbows",
-                queues: []
-            },
-            {
-                name: "Shock Commander Visor",
-                queues: [
-                    {
-                        character: "Penzilgon",
-                        reputation: 49435,
-                        name: "Shock Commander Visor"
-                    }
-                ]
-            },
-            {
-                name: "Ebon Roar Gauntlets",
-                queues: []
-            },
-            {
-                name: "Gilded Infernal Wristlet",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 6,
-        name: "Cornelius",
-        items: [
-            {
-                name: "Cornelius's Animated Edge",
-                queues: []
-            },
-            {
-                name: "Ascended Guardian Hood",
-                queues: []
-            },
-            {
-                name: "Divine Justiciar Attire",
-                queues: []
-            },
-            {
-                name: "Abyssal Grace Charm",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 7,
-        name: "Ahzreil",
-        items: [
-            {
-                name: "Ahzreil's Siphoning Sword",
-                queues: []
-            },
-            {
-                name: "Swirling Essence Pants",
-                queues: []
-            },
-            {
-                name: "Divine Justiciar Pants",
-                queues: []
-            },
-            {
-                name: "Blessed Templar Cloak",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 8,
-        name: "Minzerok",
-        items: [
-            {
-                name: "Minzerok's Daggers of Crippling",
-                queues: []
-            },
-            {
-                name: "Swirling Essence Hat",
-                queues: []
-            },
-            {
-                name: "Divine Justiciar Gloves",
-                queues: []
-            },
-            {
-                name: "Blessed Templar Choker",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 9,
-        name: "Kowazan",
-        items: [
-            {
-                name: "Kowazan's Twilight Daggers",
-                queues: []
-            },
-            {
-                name: "Shock Commander Greaves",
-                queues: []
-            },
-            {
-                name: "Arcane Shadow Hat",
-                queues: []
-            },
-            {
-                name: "Collar of Decimation",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 10,
-        name: "Adentus",
-        items: [
-            {
-                name: "Adentus' Gargantuan Greatsword",
-                queues: [
-                    {
-                        character: "Deehom",
-                        reputation: 4616,
-                        name: "Adentus' Gargantuan Greatsword"
-                    },
-                    {
-                        character: "ManiFiest0",
-                        reputation: 1884,
-                        name: "Adentus' Gargantuan Greatsword"
-                    }
-                ]
-            },
-            {
-                name: "Shadow Harvester Mask",
-                queues: [
-                    {
-                        character: "Kypriz",
-                        reputation: 25020,
-                        name: "Shadow Harvester Mask"
-                    },
-                    {
-                        character: "KareeRagnar",
-                        reputation: 13585,
-                        name: "Shadow Harvester Mask"
-                    },
-                    {
-                        character: "LanaNewerth",
-                        reputation: 25382,
-                        name: "Shadow Harvester Mask",
-                        note: "ต่อคิวใหม่"
-                    },
-                    {
-                        character: "B3nZury",
-                        reputation: 37745,
-                        name: "Phantom Wolf Mask"
-                    }
-                ]
-            },
-            {
-                name: "Blessed Templar Helmet",
-                queues: []
-            },
-            {
-                name: "Girdle of Spectral Skulls",
-                queues: [
-                    {
-                        character: "RaggaeWiz",
-                        reputation: 6311,
-                        name: "Girdle of Spectral Skulls"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: 11,
-        name: "Junobote",
-        items: [
-            {
-                name: "Junobote's Juggernaut Warblade",
-                queues: []
-            },
-            {
-                name: "Shadow Harvester Trousers",
-                queues: []
-            },
-            {
-                name: "Arcane Shadow Robes",
-                queues: []
-            },
-            {
-                name: "Forsaken Embrace",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 12,
-        name: "Grand Aelon",
-        items: [
-            {
-                name: "Aelon's Rejuvenating Longbow",
-                queues: []
-            },
-            {
-                name: "Greaves of the Field General",
-                queues: [
-                    {
-                        character: "Teegagutee",
-                        reputation: 12176,
-                        name: "Greaves of the Field General"
-                    }
-                ]
-            },
-            {
-                name: "Arcane Shadow Pants",
-                queues: []
-            },
-            {
-                name: "Wrapped Coin Necklace",
-                queues: []
-            }
-        ]
-    },
-    {
-        id: 13,
-        name: "Nirma",
-        items: [
-            {
-                name: "Nirma's Sword of Echoes",
-                queues: []
-            },
-            {
-                name: "Ascended Guardian Pants",
-                queues: []
-            },
-            {
-                name: "Divine Justiciar Shoes",
-                queues: []
-            },
-            {
-                name: "Clasp of the Overlord",
-                queues: [
-                    {
-                        character: "UraHala",
-                        reputation: 16099,
-                        name: "Clasp of the Overlord"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        id: 14,
-        name: "Aridus",
-        items: [
-            {
-                name: "Aridus's Gnarled Voidstaff",
-                queues: []
-            },
-            {
-                name: "Phantom Wolf Breeches",
-                queues: [
-                    {
-                        character: "Marshiez",
-                        reputation: 22595,
-                        name: "Phantom Wolf Breeches"
-                    }
-                ]
-            },
-            {
-                name: "Boots of the Executioner",
-                queues: []
-            },
-            {
-                name: "Belt of Bloodlust",
-                queues: []
-            }
-        ]
-    },
-];
-
 export default function BossQueue() {
+    const [ bosses, setBosses ] = useState<Boss[]>([]);
     const [ expandedBoss, setExpandedBoss ] = useState<number | null>(null);
+    const [ loading, setLoading ] = useState(true);
+    const [ error, setError ] = useState<string | null>(null);
+
+    useEffect(() => {
+        const fetchBosses = async () => {
+            try {
+                const response = await fetch('/data/queue.json');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch boss data');
+                }
+                const data = await response.json();
+                setBosses(data.bosses);
+                setLoading(false);
+            } catch (err) {
+                setError(err instanceof Error ? err.message : 'An error occurred');
+                setLoading(false);
+            }
+        };
+
+        fetchBosses();
+    }, []);
 
     const toggleBoss = (bossId: number) => {
         setExpandedBoss(expandedBoss === bossId ? null : bossId);
@@ -451,6 +72,26 @@ export default function BossQueue() {
             return total + bossQueues;
         }, 0);
     };
+
+    if (loading) {
+        return (
+            <div className="container mx-auto px-4 py-8">
+                <div className="flex justify-center items-center h-64">
+                    <div className="text-white">กำลังโหลด...</div>
+                </div>
+            </div>
+        );
+    }
+
+    if (error) {
+        return (
+            <div className="container mx-auto px-4 py-8">
+                <div className="flex justify-center items-center h-64">
+                    <div className="text-red-500">เกิดข้อผิดพลาด: {error}</div>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <motion.div
