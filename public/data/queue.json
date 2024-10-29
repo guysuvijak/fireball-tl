@@ -103,6 +103,11 @@
                         {
                             "character": "NumniMMM",
                             "reputation": 1426
+                        },
+                        {
+                            "character": "Marshiez",
+                            "reputation": 22595,
+                            "note": "ต่อคิวใหม่"
                         }
                     ]
                 },
@@ -267,6 +272,14 @@
                         {
                             "character": "B3nZury",
                             "reputation": 37745
+                        },
+                        {
+                            "character": "StxywithZxro",
+                            "reputation": 118
+                        },
+                        {
+                            "character": "SonTeeN",
+                            "reputation": 40
                         }
                     ]
                 },
@@ -371,12 +384,7 @@
                 },
                 {
                     "name": "Phantom Wolf Breeches",
-                    "queues": [
-                        {
-                            "character": "Marshiez",
-                            "reputation": 22595
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "name": "Boots of the Executioner",
