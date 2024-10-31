@@ -12,9 +12,8 @@ interface Schedule {
 }
 
 const SCHEDULES: Schedule[] = [
-    { day: 'วันพุธ', dayInWeek: 3, time: '20:30', bosses: 2 },
-    { day: 'วันเสาร์', dayInWeek: 6, time: '20:30', bosses: 2 },
-    { day: 'วันอาทิตย์', dayInWeek: 0, time: '20:30', bosses: 3 },
+    { day: 'วันเสาร์', dayInWeek: 6, time: '20:30', bosses: 3 },
+    { day: 'วันอาทิตย์', dayInWeek: 0, time: '20:30', bosses: 4 },
 ];
 
 const container = {
