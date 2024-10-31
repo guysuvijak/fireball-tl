@@ -97,7 +97,7 @@ export default function Schedule() {
                             variants={container}
                             initial="hidden"
                             animate="show"
-                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-12" // เพิ่ม gap
+                            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-12" // เพิ่ม gap
                         >
                             {SCHEDULES.map((schedule) => {
                                 const nextDate = getNextDateTime(schedule.dayInWeek, schedule.time);
