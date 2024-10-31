@@ -16,7 +16,7 @@
         { "grade": 0, "status": 1, "pve": 70, "pvp": 30, "character": "STREK", "discord": "maboro.", "nickname": "จอห์น", "reputation": 7084, "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "RaggaeWiz", "discord": "andew.ja", "nickname": "ดริว", "reputation": 6311, "weapons": ["longbow", "wand"], "role": "Support" },
         { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "PunkTalk", "discord": "lshampool", "nickname": "โอ๊ค", "reputation": 6027, "weapons": ["wand", "staff"], "role": "Support" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Bluehawaii", "discord": "", "nickname": "", "reputation": 5184, "weapons": ["longbow", "wand"], "role": "Support" },
+        { "grade": 0, "status": 1, "pve": 70, "pvp": 30, "character": "Bluehawaii", "discord": "bluehawaii_112", "nickname": "คิว", "reputation": 5184, "weapons": ["longbow", "wand"], "role": "Support" },
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "Deehom", "discord": "deehom", "nickname": "แบงค์", "reputation": 4636, "weapons": ["crossbow", "dagger"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "DeeJub", "discord": "auu", "nickname": "อู๋", "reputation": 4212, "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "Boboniwa", "discord": "coconut1455", "nickname": "ที", "reputation": 4132, "weapons": ["greatsword", "dagger"], "role": "DPS" },
@@ -32,7 +32,7 @@
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "LanaNewerth", "discord": "nnthphone", "nickname": "นนท์", "reputation": 23974, "weapons": ["crossbow", "dagger"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "GODJINX", "discord": "", "nickname": "", "reputation": 1695, "weapons": ["longbow", "crossbow"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "WetF0x", "discord": "", "nickname": "", "reputation": 1634, "weapons": ["longbow", "wand"], "role": "Support" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "NumniMMM", "discord": "", "nickname": "", "reputation": 1426, "weapons": ["crossbow", "longbow"], "role": "DPS" },
+        { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "NumniMMM", "discord": "maxiiz", "nickname": "แม็ก", "reputation": 1426, "weapons": ["crossbow", "longbow"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "COPseki", "discord": "boatzw3izw3i", "nickname": "โบ๊ท", "reputation": 1363, "weapons": ["greatsword", "wand"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "PFreunD", "discord": "pfreund", "nickname": "พี", "reputation": 971, "weapons": ["staff", "wand"], "role": "Support" },
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "RasPK", "discord": "pakahoqq", "nickname": "ปาย", "reputation": 866, "weapons": ["swordshield", "greatsword"], "role": "Tank" },
@@ -56,6 +56,7 @@
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Dark66", "discord": "", "nickname": "", "reputation": 1117, "weapons": ["dagger", "greatsword"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "xkongS", "discord": "", "nickname": "", "reputation": 167, "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "StxywithZxro", "discord": "nestle_eyriedals", "nickname": "ฟิว", "reputation": 118, "weapons": ["longbow", "staff"], "role": "DPS" },
-        { "grade": 0, "status": 1, "pve": 60, "pvp": 40, "character": "SonTeeN", "discord": "animari1150", "nickname": "พน", "reputation": 40, "weapons": ["longbow", "staff"], "role": "DPS" }
+        { "grade": 0, "status": 1, "pve": 60, "pvp": 40, "character": "SonTeeN", "discord": "animari1150", "nickname": "พน", "reputation": 40, "weapons": ["longbow", "staff"], "role": "DPS" },
+        { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "ManAtlas", "discord": "manatlas", "nickname": "แมน", "reputation": 0, "weapons": ["dagger", "crossbow"], "role": "DPS" }
     ]
 }
