@@ -61,10 +61,6 @@
                     "name": "Helm of the Field General",
                     "queues": [
                         {
-                            "character": "BR13",
-                            "reputation": 4929
-                        },
-                        {
                             "character": "Boboniwa",
                             "reputation": 4132
                         }
@@ -101,10 +97,6 @@
                             "reputation": 7797
                         },
                         {
-                            "character": "NumniMMM",
-                            "reputation": 1426
-                        },
-                        {
                             "character": "Marshiez",
                             "reputation": 22595,
                             "note": "ต่อคิวใหม่"
@@ -133,8 +125,8 @@
                     "name": "Shock Commander Visor",
                     "queues": [
                         {
-                            "character": "Penzilgon",
-                            "reputation": 49435
+                            "character": "BR13",
+                            "reputation": 4929
                         }
                     ]
                 },
@@ -224,7 +216,12 @@
                 },
                 {
                     "name": "Shock Commander Greaves",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "Penzilgon",
+                            "reputation": 49435
+                        }
+                    ]
                 },
                 {
                     "name": "Arcane Shadow Hat",
@@ -251,6 +248,10 @@
                             "character": "Deehom",
                             "reputation": 4616,
                             "note": "ต่อคิวใหม่"
+                        },
+                        {
+                            "character": "lKaNomHwanl",
+                            "reputation": 3719
                         }
                     ]
                 },
@@ -269,10 +270,6 @@
                             "character": "LanaNewerth",
                             "reputation": 25382,
                             "note": "ต่อคิวใหม่"
-                        },
-                        {
-                            "character": "B3nZury",
-                            "reputation": 37745
                         },
                         {
                             "character": "StxywithZxro",
@@ -398,7 +395,16 @@
                 },
                 {
                     "name": "Belt of Bloodlust",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "B3nZury",
+                            "reputation": 37745
+                        },
+                        {
+                            "character": "NumniMMM",
+                            "reputation": 1426
+                        }
+                    ]
                 }
             ]
         }
