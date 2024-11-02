@@ -47,7 +47,7 @@
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "NoLi24", "discord": "", "nickname": "", "reputation": 484, "weapons": ["greatsword", "swordshield"], "role": "Tank" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "SosxsSosay", "discord": "", "nickname": "", "reputation": 459, "weapons": ["staff", "wand"], "role": "Support" },
         { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "ArDrean", "discord": "fazz0344", "nickname": "ฟา", "reputation": 441, "weapons": ["wand", "staff"], "role": "Support" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "ChubbyCatz", "discord": "", "nickname": "", "reputation": 417, "weapons": ["staff", "crossbow"], "role": "DPS" },
+        { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "ChubbyCatz", "discord": "joeykuma", "nickname": "โจ้", "reputation": 417, "weapons": ["staff", "crossbow"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 90, "pvp": 10, "character": "MelodyMe", "discord": "ajboyzaa", "nickname": "ลุงบอย", "reputation": 142, "weapons": ["greatsword", "longbow"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "AndreAnnedisong", "discord": "", "nickname": "", "reputation": 75, "weapons": ["greatsword", "swordshield"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "Mobellar", "discord": "goldenpigm", "nickname": "หมูทอง", "reputation": 62, "weapons": ["longbow", "wand"], "role": "Support" },
@@ -57,6 +57,8 @@
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "xkongS", "discord": "", "nickname": "", "reputation": 167, "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "StxywithZxro", "discord": "nestle_eyriedals", "nickname": "ฟิว", "reputation": 118, "weapons": ["longbow", "staff"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 60, "pvp": 40, "character": "SonTeeN", "discord": "animari1150", "nickname": "พน", "reputation": 40, "weapons": ["longbow", "staff"], "role": "DPS" },
-        { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "ManAtlas", "discord": "manatlas", "nickname": "แมน", "reputation": 0, "weapons": ["dagger", "crossbow"], "role": "DPS" }
+        { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "ManAtlas", "discord": "manatlas", "nickname": "แมน", "reputation": 0, "weapons": ["dagger", "crossbow"], "role": "DPS" },
+        { "grade": 0, "status": 1, "pve": 99, "pvp": 1, "character": "TEANA78", "discord": "away_g_78", "nickname": "แทน", "reputation": 49, "weapons": ["greatsword", "swordshield"], "role": "Tank" },
+        { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "GlasgrowKiss", "discord": "glasgrowkiss", "nickname": "โฮชิ", "reputation": 49, "weapons": ["longbow", "crossbow"], "role": "DPS" }
     ]
 }
