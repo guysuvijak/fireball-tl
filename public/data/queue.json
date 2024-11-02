@@ -132,7 +132,13 @@
                 },
                 {
                     "name": "Ebon Roar Gauntlets",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "MeteorVIIx",
+                            "reputation": 12320,
+                            "note": "ต่อคิวใหม่"
+                        }
+                    ]
                 },
                 {
                     "name": "Gilded Infernal Wristlet",
@@ -291,11 +297,6 @@
                         {
                             "character": "RaggaeWiz",
                             "reputation": 6311
-                        },
-                        {
-                            "character": "MeteorVIIx",
-                            "reputation": 12320,
-                            "note": "ต่อคิวใหม่"
                         }
                     ]
                 }
