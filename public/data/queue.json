@@ -82,12 +82,7 @@
             "items": [
                 {
                     "name": "Talus's Crystalline Staff",
-                    "queues": [
-                        {
-                            "character": "PunkTalk",
-                            "reputation": 6027
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "name": "Phantom Wolf Mask",
@@ -247,17 +242,13 @@
                     "name": "Adentus' Gargantuan Greatsword",
                     "queues": [
                         {
-                            "character": "ManiFiest0",
-                            "reputation": 1884
-                        },
-                        {
                             "character": "Deehom",
                             "reputation": 4616,
-                            "note": "ต่อคิวใหม่"
+                            "note": "ยกเว้น Crit Hit"
                         },
                         {
-                            "character": "lKaNomHwanl",
-                            "reputation": 3719
+                            "character": "ManiFiest0",
+                            "reputation": 1884
                         }
                     ]
                 },
@@ -284,6 +275,10 @@
                         {
                             "character": "SonTeeN",
                             "reputation": 40
+                        },
+                        {
+                            "character": "lKaNomHwanl",
+                            "reputation": 3719
                         }
                     ]
                 },
@@ -348,6 +343,15 @@
                 {
                     "name": "Wrapped Coin Necklace",
                     "queues": []
+                },
+                {
+                    "name": "Ascended Guardian Raiment",
+                    "queues": [
+                        {
+                            "character": "PunkTalk",
+                            "reputation": 6027
+                        }
+                    ]
                 }
             ]
         },
