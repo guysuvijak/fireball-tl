@@ -44,16 +44,13 @@
                     "name": "Chernobog's Blade of Beheading",
                     "queues": [
                         {
-                            "character": "STREK",
-                            "reputation": 6951
+                            "character": "STREK"
                         },
                         {
-                            "character": "DeeJub",
-                            "reputation": 4191
+                            "character": "DeeJub"
                         },
                         {
-                            "character": "RasPK",
-                            "reputation": 850
+                            "character": "RasPK"
                         }
                     ]
                 },
@@ -61,8 +58,7 @@
                     "name": "Helm of the Field General",
                     "queues": [
                         {
-                            "character": "Boboniwa",
-                            "reputation": 4132
+                            "character": "Boboniwa"
                         }
                     ]
                 },
@@ -88,12 +84,10 @@
                     "name": "Phantom Wolf Mask",
                     "queues": [
                         {
-                            "character": "PaoQ",
-                            "reputation": 7797
+                            "character": "PaoQ"
                         },
                         {
                             "character": "Marshiez",
-                            "reputation": 22595,
                             "note": "ต่อคิวใหม่"
                         }
                     ]
@@ -120,8 +114,7 @@
                     "name": "Shock Commander Visor",
                     "queues": [
                         {
-                            "character": "BR13",
-                            "reputation": 4929
+                            "character": "BR13"
                         }
                     ]
                 },
@@ -130,7 +123,6 @@
                     "queues": [
                         {
                             "character": "MeteorVIIx",
-                            "reputation": 12320,
                             "note": "ต่อคิวใหม่"
                         }
                     ]
@@ -219,8 +211,7 @@
                     "name": "Shock Commander Greaves",
                     "queues": [
                         {
-                            "character": "Penzilgon",
-                            "reputation": 49435
+                            "character": "Penzilgon"
                         }
                     ]
                 },
@@ -243,16 +234,13 @@
                     "queues": [
                         {
                             "character": "Deehom",
-                            "reputation": 4616,
                             "note": "ยกเว้น Hit Chance"
                         },
                         {
-                            "character": "ManiFiest0",
-                            "reputation": 1884
+                            "character": "ManiFiest0"
                         },
                         {
-                            "character": "ElSaberlight",
-                            "reputation": 1884
+                            "character": "ElSaberlight"
                         }
                     ]
                 },
@@ -260,29 +248,23 @@
                     "name": "Shadow Harvester Mask",
                     "queues": [
                         {
-                            "character": "Kypriz",
-                            "reputation": 25020
+                            "character": "Kypriz"
                         },
                         {
-                            "character": "KareeRagnar",
-                            "reputation": 13585
+                            "character": "KareeRagnar"
                         },
                         {
                             "character": "LanaNewerth",
-                            "reputation": 25382,
                             "note": "ต่อคิวใหม่"
                         },
                         {
-                            "character": "StxywithZxro",
-                            "reputation": 118
+                            "character": "StxywithZxro"
                         },
                         {
-                            "character": "SonTeeN",
-                            "reputation": 40
+                            "character": "SonTeeN"
                         },
                         {
-                            "character": "lKaNomHwanl",
-                            "reputation": 3719
+                            "character": "lKaNomHwanl"
                         }
                     ]
                 },
@@ -294,8 +276,7 @@
                     "name": "Girdle of Spectral Skulls",
                     "queues": [
                         {
-                            "character": "RaggaeWiz",
-                            "reputation": 6311
+                            "character": "RaggaeWiz"
                         }
                     ]
                 }
@@ -331,8 +312,7 @@
                     "name": "Aelon's Rejuvenating Longbow",
                     "queues": [
                         {
-                            "character": "MelodyMe",
-                            "reputation": 142
+                            "character": "MelodyMe"
                         }
                     ]
                 },
@@ -340,8 +320,7 @@
                     "name": "Greaves of the Field General",
                     "queues": [
                         {
-                            "character": "Teegagutee",
-                            "reputation": 12176
+                            "character": "Teegagutee"
                         }
                     ]
                 },
@@ -357,8 +336,7 @@
                     "name": "Ascended Guardian Raiment",
                     "queues": [
                         {
-                            "character": "PunkTalk",
-                            "reputation": 6027
+                            "character": "PunkTalk"
                         }
                     ]
                 }
@@ -384,8 +362,7 @@
                     "name": "Clasp of the Overlord",
                     "queues": [
                         {
-                            "character": "UraHala",
-                            "reputation": 16099
+                            "character": "UraHala"
                         }
                     ]
                 }
@@ -411,12 +388,10 @@
                     "name": "Belt of Bloodlust",
                     "queues": [
                         {
-                            "character": "B3nZury",
-                            "reputation": 37745
+                            "character": "B3nZury"
                         },
                         {
-                            "character": "NumniMMM",
-                            "reputation": 1426
+                            "character": "NumniMMM"
                         }
                     ]
                 }

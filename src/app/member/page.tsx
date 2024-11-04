@@ -12,7 +12,6 @@ interface Member {
     nickname: string;
     discord: string;
     weapons: string[];
-    reputation: number;
     role: string;
     status: number;
     pve: number;
@@ -178,7 +177,7 @@ export default function Member() {
                     <table className='min-w-full'>
                         <thead className='bg-gray-900/50 sticky top-0 z-10'>
                             <tr>
-                                {(['grade', 'character', 'nickname', 'discord', 'weapons', 'reputation', 'style'] as const).map((column) => (
+                                {(['grade', 'character', 'nickname', 'discord', 'weapons', 'style'] as const).map((column) => (
                                     <th key={column} className='px-6 py-3 text-left relative bg-gray-900/50'>
                                         <button
                                             onClick={() => handleSort(column)}
@@ -246,9 +245,6 @@ export default function Member() {
                                                     {member.role}
                                                 </span>
                                             </div>
-                                        </td>
-                                        <td className='px-6 py-3 whitespace-nowrap text-sm text-gray-300'>
-                                            {member.reputation.toLocaleString(undefined, { maximumFractionDigits: 0 })}
                                         </td>
                                         <td className='px-6 py-3 whitespace-nowrap text-sm text-gray-300'>
                                             <div 

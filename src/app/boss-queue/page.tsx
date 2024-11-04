@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 interface QueueItem {
-    reputation: number;
     character: string;
     note?: string;
 }
@@ -192,9 +191,6 @@ export default function BossQueue() {
                                                                             {queue.character}
                                                                         </span>
                                                                         <span>
-                                                                            <span className="text-gray-400">
-                                                                                ({queue.reputation.toLocaleString()})
-                                                                            </span>
                                                                             {queue.note && (
                                                                                 <span className="ml-2 text-red-400">{queue.note}</span>
                                                                             )}
