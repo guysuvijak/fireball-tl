@@ -53,6 +53,8 @@
         { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "StxywithZxro", "discord": "nestle_eyriedals", "nickname": "ฟิว", "reputation": 118, "weapons": ["longbow", "staff"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 60, "pvp": 40, "character": "SonTeeN", "discord": "animari1150", "nickname": "พน", "reputation": 40, "weapons": ["longbow", "staff"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 99, "pvp": 1, "character": "TEANA78", "discord": "away_g_78", "nickname": "แทน", "reputation": 49, "weapons": ["greatsword", "swordshield"], "role": "Tank" },
-        { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "GlasgrowKiss", "discord": "glasgrowkiss", "nickname": "โฮชิ", "reputation": 49, "weapons": ["longbow", "crossbow"], "role": "DPS" }
+        { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "GlasgrowKiss", "discord": "glasgrowkiss", "nickname": "โฮชิ", "reputation": 49, "weapons": ["longbow", "crossbow"], "role": "DPS" },
+        { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "zSnowYz", "discord": "_topfyz", "nickname": "ท็อป", "reputation": 0, "weapons": ["staff", "longbow"], "role": "DPS" },
+        { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "ElSaberlight", "discord": "aqua_pure", "nickname": "บอย", "reputation": 0, "weapons": ["swordshield", "greatsword"], "role": "Tank" }
     ]
 }

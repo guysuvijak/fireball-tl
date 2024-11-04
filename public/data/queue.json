@@ -249,6 +249,10 @@
                         {
                             "character": "ManiFiest0",
                             "reputation": 1884
+                        },
+                        {
+                            "character": "ElSaberlight",
+                            "reputation": 1884
                         }
                     ]
                 },
@@ -325,7 +329,12 @@
             "items": [
                 {
                     "name": "Aelon's Rejuvenating Longbow",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "MelodyMe",
+                            "reputation": 142
+                        }
+                    ]
                 },
                 {
                     "name": "Greaves of the Field General",
