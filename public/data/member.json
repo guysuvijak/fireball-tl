@@ -55,6 +55,8 @@
         { "grade": 0, "status": 1, "pve": 99, "pvp": 1, "character": "TEANA78", "discord": "away_g_78", "nickname": "แทน", "weapons": ["greatsword", "swordshield"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "GlasgrowKiss", "discord": "glasgrowkiss", "nickname": "โฮชิ", "weapons": ["longbow", "crossbow"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "zSnowYz", "discord": "_topfyz", "nickname": "ท็อป", "weapons": ["staff", "longbow"], "role": "DPS" },
-        { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "ElSaberlight", "discord": "aqua_pure", "nickname": "บอย", "weapons": ["swordshield", "greatsword"], "role": "Tank" }
+        { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "ElSaberlight", "discord": "aqua_pure", "nickname": "บอย", "weapons": ["swordshield", "greatsword"], "role": "Tank" },
+        { "grade": 0, "status": 1, "pve": 50, "pvp": 50, "character": "Genghisz", "discord": "genghis_hong_91658", "nickname": "เจ๋ง", "weapons": ["swordshield", "greatsword"], "role": "Tank" },
+        { "grade": 0, "status": 1, "pve": 75, "pvp": 25, "character": "N3RSAN", "discord": "noi_.03", "nickname": "น้อย", "weapons": ["longbow", "staff"], "role": "DPS" }
     ]
 }
