@@ -5,14 +5,17 @@
             "name": "Morokai",
             "items": [
                 {
+                    "id": "1-0",
                     "name": "Morokai's Greatblade of Corruption",
                     "queues": []
                 },
                 {
+                    "id": "1-1",
                     "name": "Arcane Shadow Gloves",
                     "queues": []
                 },
                 {
+                    "id": "1-2",
                     "name": "Abyssal Grace Pendant",
                     "queues": []
                 }
@@ -23,14 +26,17 @@
             "name": "Excavator-9",
             "items": [
                 {
+                    "id": "2-0",
                     "name": "Excavator's Mysterious Scepter",
                     "queues": []
                 },
                 {
+                    "id": "2-1",
                     "name": "Heroic Breeches of the Resistance",
                     "queues": []
                 },
                 {
+                    "id": "2-2",
                     "name": "Embossed Granite Band",
                     "queues": []
                 }
@@ -41,6 +47,7 @@
             "name": "Chernobog",
             "items": [
                 {
+                    "id": "3-0",
                     "name": "Chernobog's Blade of Beheading",
                     "queues": [
                         {
@@ -55,6 +62,7 @@
                     ]
                 },
                 {
+                    "id": "3-1",
                     "name": "Helm of the Field General",
                     "queues": [
                         {
@@ -63,10 +71,12 @@
                     ]
                 },
                 {
+                    "id": "3-2",
                     "name": "Arcane Shadow Shoes",
                     "queues": []
                 },
                 {
+                    "id": "3-3",
                     "name": "Bile Drenched Veil",
                     "queues": []
                 }
@@ -77,10 +87,12 @@
             "name": "Talus",
             "items": [
                 {
+                    "id": "4-0",
                     "name": "Talus's Crystalline Staff",
                     "queues": []
                 },
                 {
+                    "id": "4-1",
                     "name": "Phantom Wolf Mask",
                     "queues": [
                         {
@@ -88,15 +100,17 @@
                         },
                         {
                             "character": "Marshiez",
-                            "note": "ต่อคิวใหม่"
+                            "note": "2-1"
                         }
                     ]
                 },
                 {
+                    "id": "4-2",
                     "name": "Blessed Templar Plate Mail",
                     "queues": []
                 },
                 {
+                    "id": "4-3",
                     "name": "Forged Golden Bangle",
                     "queues": []
                 }
@@ -107,10 +121,12 @@
             "name": "Malakar",
             "items": [
                 {
+                    "id": "5-0",
                     "name": "Malakar's Energizing Crossbows",
                     "queues": []
                 },
                 {
+                    "id": "5-1",
                     "name": "Shock Commander Visor",
                     "queues": [
                         {
@@ -119,10 +135,12 @@
                     ]
                 },
                 {
+                    "id": "5-2",
                     "name": "Ebon Roar Gauntlets",
                     "queues": []
                 },
                 {
+                    "id": "5-3",
                     "name": "Gilded Infernal Wristlet",
                     "queues": []
                 }
@@ -133,18 +151,22 @@
             "name": "Cornelius",
             "items": [
                 {
+                    "id": "6-0",
                     "name": "Cornelius's Animated Edge",
                     "queues": []
                 },
                 {
+                    "id": "6-1",
                     "name": "Ascended Guardian Hood",
                     "queues": []
                 },
                 {
+                    "id": "6-2",
                     "name": "Divine Justiciar Attire",
                     "queues": []
                 },
                 {
+                    "id": "6-3",
                     "name": "Abyssal Grace Charm",
                     "queues": []
                 }
@@ -155,18 +177,22 @@
             "name": "Ahzreil",
             "items": [
                 {
+                    "id": "7-0",
                     "name": "Ahzreil's Siphoning Sword",
                     "queues": []
                 },
                 {
+                    "id": "7-1",
                     "name": "Swirling Essence Pants",
                     "queues": []
                 },
                 {
+                    "id": "7-2",
                     "name": "Divine Justiciar Pants",
                     "queues": []
                 },
                 {
+                    "id": "7-3",
                     "name": "Blessed Templar Cloak",
                     "queues": []
                 }
@@ -177,18 +203,22 @@
             "name": "Minzerok",
             "items": [
                 {
+                    "id": "8-0",
                     "name": "Minzerok's Daggers of Crippling",
                     "queues": []
                 },
                 {
+                    "id": "8-1",
                     "name": "Swirling Essence Hat",
                     "queues": []
                 },
                 {
+                    "id": "8-2",
                     "name": "Divine Justiciar Gloves",
                     "queues": []
                 },
                 {
+                    "id": "8-3",
                     "name": "Blessed Templar Choker",
                     "queues": []
                 }
@@ -199,22 +229,27 @@
             "name": "Kowazan",
             "items": [
                 {
+                    "id": "9-0",
                     "name": "Kowazan's Twilight Daggers",
                     "queues": []
                 },
                 {
+                    "id": "9-1",
                     "name": "Shock Commander Sabatons",
                     "queues": [
                         {
-                            "character": "Penzilgon"
+                            "character": "Penzilgon",
+                            "note": "5-1"
                         }
                     ]
                 },
                 {
+                    "id": "9-2",
                     "name": "Arcane Shadow Hat",
                     "queues": []
                 },
                 {
+                    "id": "9-3",
                     "name": "Collar of Decimation",
                     "queues": []
                 }
@@ -225,10 +260,12 @@
             "name": "Adentus",
             "items": [
                 {
+                    "id": "10-0",
                     "name": "Adentus' Gargantuan Greatsword",
                     "queues": [
                         {
-                            "character": "Deehom"
+                            "character": "Deehom",
+                            "note": "10-0"
                         },
                         {
                             "character": "ManiFiest0"
@@ -242,6 +279,7 @@
                     ]
                 },
                 {
+                    "id": "10-1",
                     "name": "Shadow Harvester Mask",
                     "queues": [
                         {
@@ -251,8 +289,7 @@
                             "character": "KareeRagnar"
                         },
                         {
-                            "character": "LanaNewerth",
-                            "note": "ต่อคิวใหม่"
+                            "character": "LanaNewerth"
                         },
                         {
                             "character": "StxywithZxro"
@@ -261,19 +298,25 @@
                             "character": "SonTeeN"
                         },
                         {
-                            "character": "lKaNomHwanl"
+                            "character": "lKaNomHwanl",
+                            "note": "5-0"
                         }
                     ]
                 },
                 {
+                    "id": "10-2",
                     "name": "Blessed Templar Helmet",
                     "queues": []
                 },
                 {
+                    "id": "10-3",
                     "name": "Girdle of Spectral Skulls",
                     "queues": [
                         {
                             "character": "RaggaeWiz"
+                        },
+                        {
+                            "character": "UraHala"
                         }
                     ]
                 }
@@ -284,18 +327,22 @@
             "name": "Junobote",
             "items": [
                 {
+                    "id": "11-0",
                     "name": "Junobote's Juggernaut Warblade",
                     "queues": []
                 },
                 {
+                    "id": "11-1",
                     "name": "Shadow Harvester Trousers",
                     "queues": []
                 },
                 {
+                    "id": "11-2",
                     "name": "Arcane Shadow Robes",
                     "queues": []
                 },
                 {
+                    "id": "11-3",
                     "name": "Forsaken Embrace",
                     "queues": []
                 }
@@ -306,6 +353,7 @@
             "name": "Grand Aelon",
             "items": [
                 {
+                    "id": "12-0",
                     "name": "Aelon's Rejuvenating Longbow",
                     "queues": [
                         {
@@ -314,6 +362,7 @@
                     ]
                 },
                 {
+                    "id": "12-1",
                     "name": "Greaves of the Field General",
                     "queues": [
                         {
@@ -322,14 +371,17 @@
                     ]
                 },
                 {
+                    "id": "12-2",
                     "name": "Arcane Shadow Pants",
                     "queues": []
                 },
                 {
+                    "id": "12-3",
                     "name": "Wrapped Coin Necklace",
                     "queues": []
                 },
                 {
+                    "id": "12-4",
                     "name": "Ascended Guardian Raiment",
                     "queues": [
                         {
@@ -344,29 +396,29 @@
             "name": "Nirma",
             "items": [
                 {
+                    "id": "13-0",
                     "name": "Nirma's Sword of Echoes",
                     "queues": [
                         {
                             "character": "MeteorVIIx",
-                            "note": "ต่อคิวใหม่"
+                            "note": "2-0"
                         }
                     ]
                 },
                 {
+                    "id": "13-1",
                     "name": "Ascended Guardian Pants",
                     "queues": []
                 },
                 {
+                    "id": "13-2",
                     "name": "Divine Justiciar Shoes",
                     "queues": []
                 },
                 {
+                    "id": "13-3",
                     "name": "Clasp of the Overlord",
-                    "queues": [
-                        {
-                            "character": "UraHala"
-                        }
-                    ]
+                    "queues": []
                 }
             ]
         },
@@ -375,18 +427,22 @@
             "name": "Aridus",
             "items": [
                 {
+                    "id": "14-0",
                     "name": "Aridus's Gnarled Voidstaff",
                     "queues": []
                 },
                 {
+                    "id": "14-1",
                     "name": "Phantom Wolf Breeches",
                     "queues": []
                 },
                 {
+                    "id": "14-2",
                     "name": "Boots of the Executioner",
                     "queues": []
                 },
                 {
+                    "id": "14-3",
                     "name": "Belt of Bloodlust",
                     "queues": [
                         {
@@ -394,6 +450,22 @@
                         },
                         {
                             "character": "NumniMMM"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "None",
+            "items": [
+                {
+                    "id": "15-0",
+                    "name": "ยังไม่ได้จองคิว",
+                    "queues": [
+                        {
+                            "character": "IladaSamuel",
+                            "note": "4-0"
                         }
                     ]
                 }

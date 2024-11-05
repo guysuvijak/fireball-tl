@@ -9,6 +9,7 @@ interface QueueItem {
 }
 
 interface ItemDrop {
+    id: string;
     name: string;
     queues: QueueItem[];
 }
@@ -173,6 +174,7 @@ export default function BossQueue() {
                                                     </div>
                                                     <div className="flex-1">
                                                         <h3 className="text-blue-400 font-medium">
+                                                            <span className='mr-1 text-gray-300'>{item.id}</span>
                                                             {item.name}
                                                             {item.queues.length > 0 && (
                                                                 <span className="ml-2 text-sm text-orange-400">
