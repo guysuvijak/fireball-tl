@@ -1,6 +1,6 @@
 {
     "members": [
-        { "grade": 3, "status": 1, "pve": 40, "pvp": 60, "character": "MeteorVIIx", "discord": "meteorviix", "nickname": "กาย", "weapons": ["swordshield", "greatsword"], "role": "DPS" },
+        { "grade": 3, "status": 1, "pve": 40, "pvp": 60, "character": "MeteorVIIx", "discord": "meteorviix", "nickname": "กาย", "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 2, "status": 1, "pve": 50, "pvp": 50, "character": "Penzilgon", "discord": "penzilgon", "nickname": "เจมส์", "weapons": ["swordshield", "wand"], "role": "Tank" },
         { "grade": 2, "status": 1, "pve": 50, "pvp": 50, "character": "B3nZury", "discord": "b3nzury_tc", "nickname": "เบนซ์", "weapons": ["dagger", "longbow"], "role": "DPS" },
         { "grade": 1, "status": 1, "pve": 50, "pvp": 50, "character": "Kypriz", "discord": "kypriz", "nickname": "หมี", "weapons": ["longbow", "staff"], "role": "DPS" },

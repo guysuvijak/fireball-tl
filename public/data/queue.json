@@ -120,12 +120,7 @@
                 },
                 {
                     "name": "Ebon Roar Gauntlets",
-                    "queues": [
-                        {
-                            "character": "MeteorVIIx",
-                            "note": "ต่อคิวใหม่"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "name": "Gilded Infernal Wristlet",
@@ -244,6 +239,10 @@
                         },
                         {
                             "character": "Genghisz"
+                        },
+                        {
+                            "character": "MeteorVIIx",
+                            "note": "ต่อคิวใหม่"
                         }
                     ]
                 },
