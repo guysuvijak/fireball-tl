@@ -289,12 +289,6 @@
                             "character": "KareeRagnar"
                         },
                         {
-                            "character": "LanaNewerth"
-                        },
-                        {
-                            "character": "StxywithZxro"
-                        },
-                        {
                             "character": "SonTeeN"
                         },
                         {
@@ -334,7 +328,11 @@
                 {
                     "id": "11-1",
                     "name": "Shadow Harvester Trousers",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "StxywithZxro"
+                        }
+                    ]
                 },
                 {
                     "id": "11-2",
@@ -434,7 +432,11 @@
                 {
                     "id": "14-1",
                     "name": "Phantom Wolf Breeches",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "LanaNewerth"
+                        }
+                    ]
                 },
                 {
                     "id": "14-2",
