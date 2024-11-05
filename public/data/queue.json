@@ -228,8 +228,7 @@
                     "name": "Adentus' Gargantuan Greatsword",
                     "queues": [
                         {
-                            "character": "Deehom",
-                            "note": "ยกเว้น Hit Chance"
+                            "character": "Deehom"
                         },
                         {
                             "character": "ManiFiest0"
