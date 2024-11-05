@@ -203,7 +203,7 @@
                     "queues": []
                 },
                 {
-                    "name": "Shock Commander Greaves",
+                    "name": "Shock Commander Sabatons",
                     "queues": [
                         {
                             "character": "Penzilgon"
@@ -239,10 +239,6 @@
                         },
                         {
                             "character": "Genghisz"
-                        },
-                        {
-                            "character": "MeteorVIIx",
-                            "note": "ต่อคิวใหม่"
                         }
                     ]
                 },
@@ -350,7 +346,12 @@
             "items": [
                 {
                     "name": "Nirma's Sword of Echoes",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "MeteorVIIx",
+                            "note": "ต่อคิวใหม่"
+                        }
+                    ]
                 },
                 {
                     "name": "Ascended Guardian Pants",
