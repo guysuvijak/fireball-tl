@@ -8,7 +8,7 @@
         { "grade": 1, "status": 1, "pve": 50, "pvp": 50, "character": "BR13", "discord": "ethph8923", "nickname": "เทพ", "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 1, "status": 1, "pve": 50, "pvp": 50, "character": "LanaNewerth", "discord": "nnthphone", "nickname": "นนท์", "weapons": ["crossbow", "dagger"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 90, "pvp": 10, "character": "lKaNomHwanl", "discord": "suriyanname", "nickname": "เนม", "weapons": ["crossbow", "longbow"], "role": "DPS" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Baynerlin", "discord": "", "nickname": "", "weapons": ["staff", "swordshield"], "role": "Tank" },
+        { "grade": 0, "status": 1, "pve": 70, "pvp": 30, "character": "Baynerlin", "discord": "m1nnee", "nickname": "เบย์", "weapons": ["staff", "swordshield"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 90, "pvp": 10, "character": "UraHala", "discord": "tawalnin", "nickname": "นิน", "weapons": ["longbow", "wand"], "role": "Support" },
         { "grade": 0, "status": 1, "pve": 70, "pvp": 30, "character": "STREK", "discord": "maboro.", "nickname": "จอห์น", "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "zSnowYz", "discord": "_topfyz", "nickname": "ท็อป", "weapons": ["staff", "longbow"], "role": "DPS" },
