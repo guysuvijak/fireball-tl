@@ -24,13 +24,6 @@ type SortConfig = {
     direction: 'asc' | 'desc';
 };
 
-const GRADE_MAP = {
-    3: 'Leader',
-    2: 'Advisor',
-    1: 'Guardian',
-    0: 'Member'
-} as const;
-
 const GRADE_COLORS = {
     3: 'text-yellow-400',
     2: 'text-purple-400',
@@ -247,22 +240,26 @@ export default function Member() {
                                             </div>
                                         </td>
                                         <td className='px-6 py-3 whitespace-nowrap text-sm text-gray-300'>
-                                            <div 
-                                                className='w-32 h-2 bg-gray-700 rounded overflow-hidden cursor-help'
-                                                data-tooltip-id='style-tooltip'
-                                                data-tooltip-content={`PVE ${member.pve}% / PVP ${member.pvp}%`}
-                                            >
-                                                <div className='flex h-full'>
-                                                    <div 
-                                                        className='bg-green-500 h-full'
-                                                        style={{ width: `${member.pve}%` }}
-                                                    />
-                                                    <div 
-                                                        className='bg-red-500 h-full'
-                                                        style={{ width: `${member.pvp}%` }}
-                                                    />
+                                            {member.status === 1 ? (
+                                                <div 
+                                                    className='w-32 h-2 bg-gray-700 rounded overflow-hidden cursor-help'
+                                                    data-tooltip-id='style-tooltip'
+                                                    data-tooltip-content={`PVE ${member.pve}% / PVP ${member.pvp}%`}
+                                                >
+                                                    <div className='flex h-full'>
+                                                        <div 
+                                                            className='bg-green-500 h-full'
+                                                            style={{ width: `${member.pve}%` }}
+                                                        />
+                                                        <div 
+                                                            className='bg-red-500 h-full'
+                                                            style={{ width: `${member.pvp}%` }}
+                                                        />
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            ) : (
+                                                <span className="text-gray-500">-</span>
+                                            )}
                                         </td>
                                     </motion.tr>
                                 );
