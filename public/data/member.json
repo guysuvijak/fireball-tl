@@ -59,12 +59,6 @@
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Dark66", "discord": "", "nickname": "", "weapons": ["dagger", "greatsword"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "MgB2B", "discord": "", "nickname": "", "weapons": ["longbow", "staff"], "role": "DPS" },
         { "grade": 0, "status": 1, "pve": 100, "pvp": 0, "character": "lisaBK", "discord": "oldblueboxlungiis2556", "nickname": "ก้อง", "weapons": ["swordshield", "greatsword"], "role": "Tank" },
-        { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "PFreunD", "discord": "pfreund", "nickname": "พี", "weapons": ["staff", "wand"], "role": "Support" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Vicie", "discord": "", "nickname": "", "weapons": ["greatsword", "dagger"], "role": "DPS" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "LierdA", "discord": "", "nickname": "", "weapons": ["staff", "dagger"], "role": "DPS" },
-        { "grade": 0, "status": 1, "pve": 99, "pvp": 1, "character": "TEANA78", "discord": "away_g_78", "nickname": "แทน", "weapons": ["greatsword", "swordshield"], "role": "Tank" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Avassaya", "discord": "", "nickname": "", "weapons": ["longbow", "staff"], "role": "DPS" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "SpYzErO", "discord": "", "nickname": "", "weapons": ["swordshield", "greatsword"], "role": "Tank" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Odellion", "discord": "", "nickname": "", "weapons": ["swordshield", "wand"], "role": "Tank" },
         { "grade": 0, "status": 1, "pve": 70, "pvp": 30, "character": "Bluehawaii", "discord": "bluehawaii_112", "nickname": "คิว", "weapons": ["longbow", "wand"], "role": "Support" }
     ]
