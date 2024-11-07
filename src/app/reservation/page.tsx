@@ -111,6 +111,10 @@ const ReservationSystem = () => {
                         <h2 className="text-xl font-bold flex items-center gap-2">
                             <span>⭐</span> ระบบใหม่ (ขึ้นอยู่กับคะแนนส่วนร่วม)
                         </h2>
+                        <ul className="list-disc pl-6 space-y-1">
+                            <li>สมาชิก 1 คน จองได้มากกว่า 1 ชิ้น (ขึ้นอยู่กับคะแนนส่วนร่วม)</li>
+                            <li>ต่อคิวเหมือนเดิม (จองก่อนได้ก่อน จองหลังได้หลัง)</li>
+                        </ul>
 
                         <div className="space-y-2">
                         <h3 className="text-lg font-bold flex items-center gap-2">
