@@ -240,6 +240,10 @@
                         {
                             "character": "Penzilgon",
                             "note": "5-1"
+                        },
+                        {
+                            "character": "MeteorVIIx",
+                            "note": "2-0"
                         }
                     ]
                 },
@@ -396,12 +400,7 @@
                 {
                     "id": "13-0",
                     "name": "Nirma's Sword of Echoes",
-                    "queues": [
-                        {
-                            "character": "MeteorVIIx",
-                            "note": "2-0"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "13-1",
