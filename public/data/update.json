@@ -1,0 +1,19 @@
+{
+    "updates": [
+        {
+            "id": 1,
+            "title": "New Guild War Strategy",
+            "date": "2024-03-15"
+        },
+        {
+            "id": 2,
+            "title": "Weekly Event Schedule",
+            "date": "2024-03-14"
+        },
+        {
+            "id": 3,
+            "title": "Member Recruitment Open",
+            "date": "2024-03-13"
+        }
+    ]
+}
