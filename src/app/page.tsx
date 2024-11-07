@@ -13,22 +13,29 @@ interface Update {
 
 const Index = () => {
     const [ updates, setUpdates ] = useState<Update[]>([]);
+    const [ memberCount, setMemberCount ] = useState<number>(0);
     const [ loading, setLoading ] = useState(true);
 
     useEffect(() => {
-        const fetchUpdates = async () => {
+        const fetchData = async () => {
             try {
-                const response = await fetch('/data/update.json');
-                const data = await response.json();
-                setUpdates(data.updates);
+                // ดึงข้อมูล updates
+                const updatesResponse = await fetch('/data/update.json');
+                const updatesData = await updatesResponse.json();
+                setUpdates(updatesData.updates);
+
+                // ดึงข้อมูล members และนับจำนวน
+                const membersResponse = await fetch('/data/member.json');
+                const membersData = await membersResponse.json();
+                setMemberCount(membersData.members.length);
             } catch (error) {
-                console.error('Error loading updates:', error);
+                console.error('Error loading data:', error);
             } finally {
                 setLoading(false);
             }
         };
 
-        fetchUpdates();
+        fetchData();
     }, []);
 
     const containerVariants = {
@@ -74,7 +81,7 @@ const Index = () => {
     };
 
     const stats = [
-        { icon: <FiUsers />, label: 'Members', value: '61' },
+        { icon: <FiUsers />, label: 'Members', value: loading ? '...' : `${memberCount}` },
         { icon: <FiAward />, label: 'Guild Level', value: '20' },
         { icon: <FiActivity />, label: 'Active Player', value: '20-30' },
         { icon: <FiStar />, label: 'Server', value: 'Taion' }
