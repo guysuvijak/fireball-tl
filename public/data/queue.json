@@ -99,8 +99,7 @@
                             "character": "PaoQ"
                         },
                         {
-                            "character": "Marshiez",
-                            "note": "3-1"
+                            "character": "LanaNewerth"
                         }
                     ]
                 },
@@ -240,10 +239,6 @@
                         {
                             "character": "Penzilgon",
                             "note": "5-1"
-                        },
-                        {
-                            "character": "MeteorVIIx",
-                            "note": "2-0"
                         }
                     ]
                 },
@@ -279,6 +274,17 @@
                         },
                         {
                             "character": "Genghisz"
+                        },
+                        {
+                            "character": "Marshiez",
+                            "note": "3-1"
+                        },
+                        {
+                            "character": "MeteorVIIx",
+                            "note": "2-0"
+                        },
+                        {
+                            "character": "Jacriorz7"
                         }
                     ]
                 },
@@ -431,11 +437,7 @@
                 {
                     "id": "14-1",
                     "name": "Phantom Wolf Breeches",
-                    "queues": [
-                        {
-                            "character": "LanaNewerth"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "14-2",
