@@ -51,10 +51,12 @@
                     "name": "Chernobog's Blade of Beheading",
                     "queues": [
                         {
-                            "character": "STREK"
+                            "character": "STREK",
+                            "date": "2024-10-27"
                         },
                         {
-                            "character": "DeeJub"
+                            "character": "DeeJub",
+                            "date": "2024-10-27"
                         }
                     ]
                 },
@@ -63,7 +65,8 @@
                     "name": "Helm of the Field General",
                     "queues": [
                         {
-                            "character": "Boboniwa"
+                            "character": "Boboniwa",
+                            "date": "2024-10-29"
                         }
                     ]
                 },
@@ -93,10 +96,12 @@
                     "name": "Phantom Wolf Mask",
                     "queues": [
                         {
-                            "character": "PaoQ"
+                            "character": "PaoQ",
+                            "date": "2024-10-27"
                         },
                         {
-                            "character": "LanaNewerth"
+                            "character": "LanaNewerth (สิทธิ์ 1)",
+                            "date": "2024-11-07"
                         }
                     ]
                 },
@@ -126,7 +131,8 @@
                     "name": "Shock Commander Visor",
                     "queues": [
                         {
-                            "character": "BR13"
+                            "character": "BR13",
+                            "date": "2024-11-02"
                         }
                     ]
                 },
@@ -193,7 +199,8 @@
                     "queues": [
                         {
                             "character": "Penzilgon (สิทธิ์ 3)",
-                            "note": "5-1"
+                            "note": "5-1",
+                            "date": "2024-11-08"
                         }
                     ]
                 }
@@ -222,6 +229,16 @@
                     "id": "8-3",
                     "name": "Blessed Templar Choker",
                     "queues": []
+                },
+                {
+                    "id": "8-4",
+                    "name": "Phantom Wolf Boots",
+                    "queues": [
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 2)",
+                            "date": "2024-11-08"
+                        }
+                    ]
                 }
             ]
         },
@@ -240,7 +257,8 @@
                     "queues": [
                         {
                             "character": "Penzilgon (สิทธิ์ 1)",
-                            "note": "5-1"
+                            "note": "5-1",
+                            "date": "2024-11-02"
                         }
                     ]
                 },
@@ -266,27 +284,34 @@
                     "queues": [
                         {
                             "character": "Deehom",
-                            "note": "10-0"
+                            "note": "10-0",
+                            "date": "2024-10-29"
                         },
                         {
-                            "character": "ManiFiest0"
+                            "character": "ManiFiest0",
+                            "date": "2024-10-28"
                         },
                         {
-                            "character": "ElSaberlight"
+                            "character": "ElSaberlight",
+                            "date": "2024-11-04"
                         },
                         {
-                            "character": "Genghisz"
+                            "character": "Genghisz",
+                            "date": "2024-11-04"
                         },
                         {
                             "character": "Marshiez (สิทธิ์ 1)",
-                            "note": "3-1"
+                            "note": "3-1",
+                            "date": "2024-11-07"
                         },
                         {
                             "character": "MeteorVIIx",
-                            "note": "2-0"
+                            "note": "2-0",
+                            "date": "2024-11-08"
                         },
                         {
-                            "character": "Jacriorz7"
+                            "character": "Jacriorz7",
+                            "date": "2024-11-08"
                         }
                     ]
                 },
@@ -295,17 +320,21 @@
                     "name": "Shadow Harvester Mask",
                     "queues": [
                         {
-                            "character": "Kypriz"
+                            "character": "Kypriz",
+                            "date": "2024-10-27"
                         },
                         {
-                            "character": "KareeRagnar"
+                            "character": "KareeRagnar",
+                            "date": "2024-10-27"
                         },
                         {
-                            "character": "SonTeeN (สิทธิ์ 1)"
+                            "character": "SonTeeN (สิทธิ์ 1)",
+                            "date": "2024-10-29"
                         },
                         {
                             "character": "lKaNomHwanl",
-                            "note": "5-0"
+                            "note": "5-0",
+                            "date": "2024-11-02"
                         }
                     ]
                 },
@@ -319,10 +348,12 @@
                     "name": "Girdle of Spectral Skulls",
                     "queues": [
                         {
-                            "character": "RaggaeWiz"
+                            "character": "RaggaeWiz",
+                            "date": "2024-10-28"
                         },
                         {
-                            "character": "UraHala"
+                            "character": "UraHala",
+                            "date": "2024-10-28"
                         }
                     ]
                 }
@@ -342,7 +373,8 @@
                     "name": "Shadow Harvester Trousers",
                     "queues": [
                         {
-                            "character": "StxywithZxro"
+                            "character": "StxywithZxro",
+                            "date": "2024-11-05"
                         }
                     ]
                 },
@@ -367,7 +399,8 @@
                     "name": "Aelon's Rejuvenating Longbow",
                     "queues": [
                         {
-                            "character": "MelodyMe"
+                            "character": "MelodyMe",
+                            "date": "2024-11-03"
                         }
                     ]
                 },
@@ -376,7 +409,8 @@
                     "name": "Greaves of the Field General",
                     "queues": [
                         {
-                            "character": "Teegagutee"
+                            "character": "Teegagutee",
+                            "date": "2024-10-27"
                         }
                     ]
                 },
@@ -395,7 +429,8 @@
                     "name": "Ascended Guardian Raiment",
                     "queues": [
                         {
-                            "character": "PunkTalk"
+                            "character": "PunkTalk",
+                            "date": "2024-11-03"
                         }
                     ]
                 }
@@ -411,7 +446,8 @@
                     "queues": [
                         {
                             "character": "Penzilgon (สิทธิ์ 2)",
-                            "note": "5-1"
+                            "note": "5-1",
+                            "date": "2024-11-08"
                         }
                     ]
                 },
@@ -456,13 +492,16 @@
                     "name": "Belt of Bloodlust",
                     "queues": [
                         {
-                            "character": "B3nZury"
+                            "character": "B3nZury",
+                            "date": "2024-11-01"
                         },
                         {
-                            "character": "NumniMMM"
+                            "character": "NumniMMM",
+                            "date": "2024-11-02"
                         },
                         {
-                            "character": "SonTeeN (สิทธิ์ 2)"
+                            "character": "SonTeeN (สิทธิ์ 2)",
+                            "date": "2024-11-08"
                         }
                     ]
                 },
@@ -472,7 +511,8 @@
                     "queues": [
                         {
                             "character": "Marshiez (สิทธิ์ 2)",
-                            "note": "3-1"
+                            "note": "3-1",
+                            "date": "2024-11-08"
                         }
                     ]
                 }
@@ -488,7 +528,8 @@
                     "queues": [
                         {
                             "character": "IladaSamuel",
-                            "note": "4-0"
+                            "note": "4-0",
+                            "date": "2024-10-27"
                         }
                     ]
                 }
