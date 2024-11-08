@@ -148,7 +148,7 @@ export default function BossQueue() {
                                 variants={container}
                                 initial="hidden"
                                 animate="show"
-                                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 pb-6"
+                                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-6"
                             >
                                 {bosses.map((boss) => (
                                     <motion.div

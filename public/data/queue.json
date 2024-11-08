@@ -475,7 +475,12 @@
                 {
                     "id": "14-0",
                     "name": "Aridus's Gnarled Voidstaff",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 3)",
+                            "date": "2024-11-08"
+                        }
+                    ]
                 },
                 {
                     "id": "14-1",
