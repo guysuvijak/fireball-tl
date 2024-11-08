@@ -55,9 +55,6 @@
                         },
                         {
                             "character": "DeeJub"
-                        },
-                        {
-                            "character": "RasPK"
                         }
                     ]
                 },
@@ -276,7 +273,7 @@
                             "character": "Genghisz"
                         },
                         {
-                            "character": "Marshiez",
+                            "character": "Marshiez (สิทธิ์ 1)",
                             "note": "3-1"
                         },
                         {
@@ -453,6 +450,16 @@
                         },
                         {
                             "character": "NumniMMM"
+                        }
+                    ]
+                },
+                {
+                    "id": "14-4",
+                    "name": "Gauntlets of the Field General",
+                    "queues": [
+                        {
+                            "character": "Marshiez (สิทธิ์ 2)",
+                            "note": "3-1"
                         }
                     ]
                 }
