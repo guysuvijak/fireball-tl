@@ -1,19 +1,24 @@
 {
     "updates": [
         {
-            "id": 1,
+            "id": 4,
+            "title": "Updated Queue System",
+            "date": "2024-11-08"
+        },
+        {
+            "id": 3,
             "title": "New Guild War Strategy",
-            "date": "2024-03-15"
+            "date": "2024-11-02"
         },
         {
             "id": 2,
             "title": "Weekly Event Schedule",
-            "date": "2024-03-14"
+            "date": "2024-10-14"
         },
         {
-            "id": 3,
+            "id": 1,
             "title": "Member Recruitment Open",
-            "date": "2024-03-13"
+            "date": "2024-10-13"
         }
     ]
 }

@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
+import { FaCrown } from 'react-icons/fa6';
 
 interface QueueItem {
     character: string;
@@ -189,7 +190,10 @@ export default function BossQueue() {
                                                                         key={qIdx}
                                                                         className="text-sm text-gray-300 flex justify-between items-center"
                                                                     >
-                                                                        <span className="font-medium">
+                                                                        <span className={`font-medium flex items-center gap-1 ${qIdx === 0 && 'text-yellow-400'}`}>
+                                                                            {qIdx === 0 && (
+                                                                                <FaCrown className="w-4 h-4" />
+                                                                            )}
                                                                             {queue.character}
                                                                         </span>
                                                                         <span>
