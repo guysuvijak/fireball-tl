@@ -249,7 +249,12 @@
                 {
                     "id": "9-0",
                     "name": "Kowazan's Twilight Daggers",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 3)",
+                            "date": "2024-11-08"
+                        }
+                    ]
                 },
                 {
                     "id": "9-1",
@@ -320,7 +325,7 @@
                     "name": "Shadow Harvester Mask",
                     "queues": [
                         {
-                            "character": "Kypriz",
+                            "character": "Kypriz (สิทธิ์ 1)",
                             "date": "2024-10-27"
                         },
                         {
@@ -375,6 +380,10 @@
                         {
                             "character": "StxywithZxro",
                             "date": "2024-11-05"
+                        },
+                        {
+                            "character": "Kypriz (สิทธิ์ 2)",
+                            "date": "2024-11-08"
                         }
                     ]
                 },
@@ -475,12 +484,7 @@
                 {
                     "id": "14-0",
                     "name": "Aridus's Gnarled Voidstaff",
-                    "queues": [
-                        {
-                            "character": "LanaNewerth (สิทธิ์ 3)",
-                            "date": "2024-11-08"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "14-1",
