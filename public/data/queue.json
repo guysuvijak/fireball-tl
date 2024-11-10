@@ -94,10 +94,6 @@
                         {
                             "character": "PaoQ",
                             "date": "2024-10-27"
-                        },
-                        {
-                            "character": "LanaNewerth (สิทธิ์ 1)",
-                            "date": "2024-11-07"
                         }
                     ]
                 },
@@ -292,10 +288,6 @@
                             "date": "2024-11-04"
                         },
                         {
-                            "character": "Genghisz",
-                            "date": "2024-11-04"
-                        },
-                        {
                             "character": "Marshiez (สิทธิ์ 1)",
                             "note": "3-1",
                             "date": "2024-11-07"
@@ -331,6 +323,10 @@
                             "character": "lKaNomHwanl",
                             "note": "5-0",
                             "date": "2024-11-02"
+                        },
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 1)",
+                            "date": "2024-11-10"
                         }
                     ]
                 },
@@ -343,10 +339,6 @@
                     "id": "10-3",
                     "name": "Girdle of Spectral Skulls",
                     "queues": [
-                        {
-                            "character": "RaggaeWiz",
-                            "date": "2024-10-28"
-                        },
                         {
                             "character": "UraHala",
                             "date": "2024-10-28"
@@ -530,6 +522,16 @@
                             "character": "IladaSamuel",
                             "note": "4-0",
                             "date": "2024-10-27"
+                        },
+                        {
+                            "character": "RaggaeWiz",
+                            "note": "10-3/13-1",
+                            "date": "2024-11-10"
+                        },
+                        {
+                            "character": "Genghisz",
+                            "note": "10-0",
+                            "date": "2024-11-10"
                         }
                     ]
                 }
