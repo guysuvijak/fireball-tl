@@ -82,7 +82,7 @@ const Index = () => {
 
     const stats = [
         { icon: <FiUsers />, label: 'Members', value: loading ? '...' : `${memberCount}` },
-        { icon: <FiAward />, label: 'Guild Level', value: '20' },
+        { icon: <FiAward />, label: 'Guild Level', value: '22' },
         { icon: <FiActivity />, label: 'Active Player', value: '20-30' },
         { icon: <FiStar />, label: 'Server', value: 'Taion' }
     ];
