@@ -53,10 +53,6 @@
                         {
                             "character": "STREK",
                             "date": "2024-10-27"
-                        },
-                        {
-                            "character": "DeeJub",
-                            "date": "2024-10-27"
                         }
                     ]
                 },
@@ -287,11 +283,6 @@
                     "id": "10-0",
                     "name": "Adentus' Gargantuan Greatsword",
                     "queues": [
-                        {
-                            "character": "Deehom",
-                            "note": "10-0",
-                            "date": "2024-10-29"
-                        },
                         {
                             "character": "ManiFiest0",
                             "date": "2024-10-28"
