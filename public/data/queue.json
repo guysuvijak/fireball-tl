@@ -378,7 +378,17 @@
                 {
                     "id": "11-3",
                     "name": "Forsaken Embrace",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "RaggaeWiz (สิทธิ์ 2)",
+                            "note": "10-3/13-1",
+                            "date": "2024-11-10"
+                        },
+                        {
+                            "character": "N3RSAN",
+                            "date": "2024-11-10"
+                        }
+                    ]
                 }
             ]
         },
@@ -456,7 +466,13 @@
                 {
                     "id": "13-3",
                     "name": "Clasp of the Overlord",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "RaggaeWiz (สิทธิ์ 1)",
+                            "note": "10-3/13-1",
+                            "date": "2024-11-10"
+                        }
+                    ]
                 }
             ]
         },
@@ -522,11 +538,6 @@
                             "character": "IladaSamuel",
                             "note": "4-0",
                             "date": "2024-10-27"
-                        },
-                        {
-                            "character": "RaggaeWiz",
-                            "note": "10-3/13-1",
-                            "date": "2024-11-10"
                         },
                         {
                             "character": "Genghisz",
