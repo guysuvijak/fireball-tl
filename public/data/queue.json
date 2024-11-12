@@ -53,6 +53,11 @@
                         {
                             "character": "STREK",
                             "date": "2024-10-27"
+                        },
+                        {
+                            "character": "Genghisz",
+                            "note": "10-0",
+                            "date": "2024-11-11"
                         }
                     ]
                 },
@@ -414,6 +419,11 @@
                         {
                             "character": "Teegagutee",
                             "date": "2024-10-27"
+                        },
+                        {
+                            "character": "Genghisz",
+                            "note": "10-0",
+                            "date": "2024-11-11"
                         }
                     ]
                 },
@@ -539,11 +549,6 @@
                             "character": "IladaSamuel",
                             "note": "4-0",
                             "date": "2024-10-27"
-                        },
-                        {
-                            "character": "Genghisz",
-                            "note": "10-0",
-                            "date": "2024-11-10"
                         }
                     ]
                 }
