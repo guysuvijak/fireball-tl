@@ -59,6 +59,7 @@
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Dark66", "discord": "", "nickname": "", "weapons": ["dagger", "greatsword"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "MgB2B", "discord": "", "nickname": "", "weapons": ["longbow", "staff"], "role": "DPS" },
         { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "Odellion", "discord": "", "nickname": "", "weapons": ["swordshield", "wand"], "role": "Tank" },
-        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "BladeAcolyte", "discord": "", "nickname": "", "weapons": ["crossbow", "longbow"], "role": "DPS" }
+        { "grade": 0, "status": 0, "pve": 50, "pvp": 50, "character": "BladeAcolyte", "discord": "", "nickname": "", "weapons": ["crossbow", "longbow"], "role": "DPS" },
+        { "grade": 0, "status": 1, "pve": 80, "pvp": 20, "character": "-xviiCPU", "discord": "xviicpu", "nickname": "ฟลุ้ค", "weapons": ["swordshield", "greatsword"], "role": "Tank" }
     ]
 }
