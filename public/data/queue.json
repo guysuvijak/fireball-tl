@@ -126,12 +126,7 @@
                 {
                     "id": "5-1",
                     "name": "Shock Commander Visor",
-                    "queues": [
-                        {
-                            "character": "BR13",
-                            "date": "2024-11-02"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "5-2",
@@ -360,7 +355,12 @@
                 {
                     "id": "11-0",
                     "name": "Junobote's Juggernaut Warblade",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "BR13",
+                            "date": "2024-11-13"
+                        }
+                    ]
                 },
                 {
                     "id": "11-1",
