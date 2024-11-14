@@ -28,7 +28,12 @@
                 {
                     "id": "2-0",
                     "name": "Excavator's Mysterious Scepter",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "Bluehawaii",
+                            "date": "2024-11-14"
+                        }
+                    ]
                 },
                 {
                     "id": "2-1",
@@ -126,7 +131,12 @@
                 {
                     "id": "5-1",
                     "name": "Shock Commander Visor",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "Baynerlin",
+                            "date": "2024-11-14"
+                        }
+                    ]
                 },
                 {
                     "id": "5-2",
