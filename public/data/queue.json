@@ -28,7 +28,12 @@
                 {
                     "id": "2-0",
                     "name": "Excavator's Mysterious Scepter",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "Bluehawaii",
+                            "date": "2024-11-14"
+                        }
+                    ]
                 },
                 {
                     "id": "2-1",
@@ -128,8 +133,8 @@
                     "name": "Shock Commander Visor",
                     "queues": [
                         {
-                            "character": "BR13",
-                            "date": "2024-11-02"
+                            "character": "Baynerlin",
+                            "date": "2024-11-14"
                         }
                     ]
                 },
@@ -353,7 +358,12 @@
                 {
                     "id": "11-0",
                     "name": "Junobote's Juggernaut Warblade",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "BR13",
+                            "date": "2024-11-13"
+                        }
+                    ]
                 },
                 {
                     "id": "11-1",
