@@ -196,7 +196,7 @@
                     "queues": [
                         {
                             "character": "Penzilgon (สิทธิ์ 3)",
-                            "note": "5-1",
+                            "note": "5-1/9-1",
                             "date": "2024-11-08"
                         }
                     ]
@@ -230,12 +230,7 @@
                 {
                     "id": "8-4",
                     "name": "Phantom Wolf Boots",
-                    "queues": [
-                        {
-                            "character": "LanaNewerth (สิทธิ์ 2)",
-                            "date": "2024-11-08"
-                        }
-                    ]
+                    "queues": []
                 }
             ]
         },
@@ -256,13 +251,7 @@
                 {
                     "id": "9-1",
                     "name": "Shock Commander Sabatons",
-                    "queues": [
-                        {
-                            "character": "Penzilgon (สิทธิ์ 1)",
-                            "note": "5-1",
-                            "date": "2024-11-02"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "9-2",
@@ -306,6 +295,10 @@
                             "character": "Jacriorz7",
                             "note": "9-3",
                             "date": "2024-11-08"
+                        },
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 2)",
+                            "date": "2024-11-16"
                         }
                     ]
                 },
@@ -329,10 +322,6 @@
                             "character": "lKaNomHwanl",
                             "note": "5-0",
                             "date": "2024-11-02"
-                        },
-                        {
-                            "character": "LanaNewerth (สิทธิ์ 1)",
-                            "date": "2024-11-10"
                         }
                     ]
                 },
@@ -348,6 +337,10 @@
                         {
                             "character": "UraHala",
                             "date": "2024-10-28"
+                        },
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 1)",
+                            "date": "2024-11-16"
                         }
                     ]
                 }
@@ -459,7 +452,7 @@
                     "queues": [
                         {
                             "character": "Penzilgon (สิทธิ์ 2)",
-                            "note": "5-1",
+                            "note": "5-1/9-1",
                             "date": "2024-11-08"
                         }
                     ]
