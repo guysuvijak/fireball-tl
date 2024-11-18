@@ -293,7 +293,7 @@
                         },
                         {
                             "character": "MeteorVIIx",
-                            "note": "2-0",
+                            "note": "2-0/10-2",
                             "date": "2024-11-08"
                         },
                         {
@@ -338,6 +338,7 @@
                     "queues": [
                         {
                             "character": "UraHala",
+                            "note": "14-2",
                             "date": "2024-10-28"
                         },
                         {
@@ -372,6 +373,7 @@
                         },
                         {
                             "character": "HeeTaD (สิทธิ์ 1)",
+                            "note": "5-2",
                             "date": "2024-11-18"
                         }
                     ]
@@ -520,6 +522,7 @@
                         },
                         {
                             "character": "HeeTaD (สิทธิ์ 2)",
+                            "note": "5-2",
                             "date": "2024-11-08"
                         }
                     ]
