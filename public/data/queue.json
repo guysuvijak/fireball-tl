@@ -53,11 +53,6 @@
                         {
                             "character": "STREK",
                             "date": "2024-10-27"
-                        },
-                        {
-                            "character": "Genghisz",
-                            "note": "10-0",
-                            "date": "2024-11-11"
                         }
                     ]
                 },
@@ -129,6 +124,7 @@
                     "queues": [
                         {
                             "character": "Baynerlin",
+                            "note": "13-1",
                             "date": "2024-11-14"
                         },
                         {
@@ -245,12 +241,7 @@
                 {
                     "id": "9-0",
                     "name": "Kowazan's Twilight Daggers",
-                    "queues": [
-                        {
-                            "character": "LanaNewerth (สิทธิ์ 3)",
-                            "date": "2024-11-08"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "9-1",
@@ -302,6 +293,7 @@
                         },
                         {
                             "character": "LanaNewerth (สิทธิ์ 2)",
+                            "note": "10-2",
                             "date": "2024-11-16"
                         }
                     ]
@@ -342,6 +334,7 @@
                         },
                         {
                             "character": "LanaNewerth (สิทธิ์ 1)",
+                            "note": "10-2",
                             "date": "2024-11-16"
                         }
                     ]
@@ -391,9 +384,9 @@
                     "name": "Forsaken Embrace",
                     "queues": [
                         {
-                            "character": "RaggaeWiz (สิทธิ์ 2)",
-                            "note": "10-3/13-1",
-                            "date": "2024-11-10"
+                            "character": "Genghisz (สิทธิ์ 1)",
+                            "note": "10-0",
+                            "date": "2024-11-23"
                         }
                     ]
                 }
@@ -422,7 +415,7 @@
                             "date": "2024-10-27"
                         },
                         {
-                            "character": "Genghisz",
+                            "character": "Genghisz (สิทธิ์ 2)",
                             "note": "10-0",
                             "date": "2024-11-11"
                         }
@@ -495,7 +488,13 @@
                 {
                     "id": "14-0",
                     "name": "Aridus's Gnarled Voidstaff",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 3)",
+                            "note": "10-2",
+                            "date": "2024-11-23"
+                        }
+                    ]
                 },
                 {
                     "id": "14-1",
@@ -551,6 +550,11 @@
                             "character": "IladaSamuel",
                             "note": "4-0",
                             "date": "2024-10-27"
+                        },
+                        {
+                            "character": "RaggaeWiz",
+                            "note": "10-3/13-1/11-3",
+                            "date": "2024-11-23"
                         }
                     ]
                 }
