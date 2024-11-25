@@ -123,11 +123,6 @@
                     "name": "Shock Commander Visor",
                     "queues": [
                         {
-                            "character": "Baynerlin",
-                            "note": "13-1",
-                            "date": "2024-11-14"
-                        },
-                        {
                             "character": "Bluehawaii",
                             "date": "2024-11-14"
                         }
@@ -277,11 +272,6 @@
                             "date": "2024-11-04"
                         },
                         {
-                            "character": "Marshiez (สิทธิ์ 1)",
-                            "note": "3-1",
-                            "date": "2024-11-07"
-                        },
-                        {
                             "character": "MeteorVIIx",
                             "note": "2-0/10-2",
                             "date": "2024-11-08"
@@ -369,7 +359,7 @@
                         },
                         {
                             "character": "HeeTaD (สิทธิ์ 1)",
-                            "note": "5-2",
+                            "note": "5-2/14-3",
                             "date": "2024-11-18"
                         }
                     ]
@@ -382,13 +372,7 @@
                 {
                     "id": "11-3",
                     "name": "Forsaken Embrace",
-                    "queues": [
-                        {
-                            "character": "Genghisz (สิทธิ์ 1)",
-                            "note": "10-0",
-                            "date": "2024-11-23"
-                        }
-                    ]
+                    "queues": []
                 }
             ]
         },
@@ -416,7 +400,7 @@
                         },
                         {
                             "character": "Genghisz (สิทธิ์ 2)",
-                            "note": "10-0",
+                            "note": "10-0/11-3",
                             "date": "2024-11-11"
                         }
                     ]
@@ -519,9 +503,14 @@
                             "date": "2024-11-02"
                         },
                         {
-                            "character": "HeeTaD (สิทธิ์ 2)",
-                            "note": "5-2",
-                            "date": "2024-11-08"
+                            "character": "Baynerlin",
+                            "note": "13-1",
+                            "date": "2024-11-24"
+                        },
+                        {
+                            "character": "Marshiez (สิทธิ์ 1)",
+                            "note": "3-1",
+                            "date": "2024-11-25"
                         }
                     ]
                 },
