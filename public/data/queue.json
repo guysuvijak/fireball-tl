@@ -445,7 +445,13 @@
                 {
                     "id": "13-1",
                     "name": "Ascended Guardian Pants",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "Penzilgon (สิทธิ์ 3)",
+                            "note": "5-1/9-1",
+                            "date": "2024-11-25"
+                        }
+                    ]
                 },
                 {
                     "id": "13-2",
