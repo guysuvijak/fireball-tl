@@ -49,22 +49,12 @@
                 {
                     "id": "3-0",
                     "name": "Chernobog's Blade of Beheading",
-                    "queues": [
-                        {
-                            "character": "STREK",
-                            "date": "2024-10-27"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "3-1",
                     "name": "Helm of the Field General",
-                    "queues": [
-                        {
-                            "character": "Boboniwa",
-                            "date": "2024-10-29"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "3-2",
@@ -90,12 +80,7 @@
                 {
                     "id": "4-1",
                     "name": "Phantom Wolf Mask",
-                    "queues": [
-                        {
-                            "character": "PaoQ",
-                            "date": "2024-10-27"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "4-2",
@@ -121,17 +106,17 @@
                 {
                     "id": "5-1",
                     "name": "Shock Commander Visor",
-                    "queues": [
-                        {
-                            "character": "Bluehawaii",
-                            "date": "2024-11-14"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "5-2",
                     "name": "Ebon Roar Gauntlets",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "Bluehawaii",
+                            "date": "2024-11-30"
+                        }
+                    ]
                 },
                 {
                     "id": "5-3",
@@ -280,11 +265,6 @@
                             "character": "Jacriorz7",
                             "note": "9-3",
                             "date": "2024-11-08"
-                        },
-                        {
-                            "character": "LanaNewerth (สิทธิ์ 2)",
-                            "note": "10-2",
-                            "date": "2024-11-16"
                         }
                     ]
                 },
@@ -316,18 +296,7 @@
                 {
                     "id": "10-3",
                     "name": "Girdle of Spectral Skulls",
-                    "queues": [
-                        {
-                            "character": "UraHala",
-                            "note": "14-2",
-                            "date": "2024-10-28"
-                        },
-                        {
-                            "character": "LanaNewerth (สิทธิ์ 1)",
-                            "note": "10-2",
-                            "date": "2024-11-16"
-                        }
-                    ]
+                    "queues": []
                 }
             ]
         },
@@ -342,6 +311,10 @@
                         {
                             "character": "BR13",
                             "date": "2024-11-13"
+                        },
+                        {
+                            "character": "PaoQ",
+                            "date": "2024-12-02"
                         }
                     ]
                 },
@@ -361,6 +334,10 @@
                             "character": "HeeTaD (สิทธิ์ 1)",
                             "note": "5-2/14-3",
                             "date": "2024-11-18"
+                        },
+                        {
+                            "character": "Boboniwa",
+                            "date": "2024-11-30"
                         }
                     ]
                 },
@@ -372,7 +349,16 @@
                 {
                     "id": "11-3",
                     "name": "Forsaken Embrace",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "Teegagutee (สิทธิ์ 1)",
+                            "date": "2024-10-28"
+                        },
+                        {
+                            "character": "STREK",
+                            "date": "2024-12-01"
+                        }
+                    ]
                 }
             ]
         },
@@ -387,6 +373,16 @@
                         {
                             "character": "MelodyMe",
                             "date": "2024-11-03"
+                        },
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 1)",
+                            "note": "10-2",
+                            "date": "2024-11-30"
+                        },
+                        {
+                            "character": "UraHala",
+                            "note": "14-2",
+                            "date": "2024-12-01"
                         }
                     ]
                 },
@@ -394,10 +390,6 @@
                     "id": "12-1",
                     "name": "Greaves of the Field General",
                     "queues": [
-                        {
-                            "character": "Teegagutee",
-                            "date": "2024-10-27"
-                        },
                         {
                             "character": "Genghisz (สิทธิ์ 2)",
                             "note": "10-0/11-3",
@@ -413,7 +405,13 @@
                 {
                     "id": "12-3",
                     "name": "Wrapped Coin Necklace",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 2)",
+                            "note": "10-2",
+                            "date": "2024-11-28"
+                        }
+                    ]
                 },
                 {
                     "id": "12-4",
