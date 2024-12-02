@@ -499,6 +499,11 @@
                             "character": "Marshiez (สิทธิ์ 1)",
                             "note": "3-1",
                             "date": "2024-11-25"
+                        },
+                        {
+                            "character": "IladaSamuel",
+                            "note": "4-0",
+                            "date": "2024-12-02"
                         }
                     ]
                 },
@@ -523,11 +528,6 @@
                     "id": "15-0",
                     "name": "ยังไม่ได้จองคิว",
                     "queues": [
-                        {
-                            "character": "IladaSamuel",
-                            "note": "4-0",
-                            "date": "2024-10-27"
-                        },
                         {
                             "character": "RaggaeWiz",
                             "note": "10-3/13-1/11-3",
