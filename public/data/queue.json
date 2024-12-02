@@ -176,7 +176,7 @@
                     "queues": [
                         {
                             "character": "Penzilgon (สิทธิ์ 2)",
-                            "note": "5-1/9-1",
+                            "note": "5-1/9-1/13-1",
                             "date": "2024-11-08"
                         }
                     ]
@@ -331,11 +331,6 @@
                             "date": "2024-11-10"
                         },
                         {
-                            "character": "HeeTaD (สิทธิ์ 1)",
-                            "note": "5-2/14-3",
-                            "date": "2024-11-18"
-                        },
-                        {
                             "character": "Boboniwa",
                             "date": "2024-11-30"
                         }
@@ -375,11 +370,6 @@
                             "date": "2024-11-03"
                         },
                         {
-                            "character": "LanaNewerth (สิทธิ์ 1)",
-                            "note": "10-2",
-                            "date": "2024-11-30"
-                        },
-                        {
                             "character": "UraHala",
                             "note": "14-2",
                             "date": "2024-12-01"
@@ -408,7 +398,7 @@
                     "queues": [
                         {
                             "character": "LanaNewerth (สิทธิ์ 2)",
-                            "note": "10-2",
+                            "note": "10-2/12-0",
                             "date": "2024-11-28"
                         }
                     ]
@@ -435,7 +425,7 @@
                     "queues": [
                         {
                             "character": "Penzilgon (สิทธิ์ 1)",
-                            "note": "5-1/9-1",
+                            "note": "5-1/9-1/13-1",
                             "date": "2024-11-08"
                         }
                     ]
@@ -443,13 +433,7 @@
                 {
                     "id": "13-1",
                     "name": "Ascended Guardian Pants",
-                    "queues": [
-                        {
-                            "character": "Penzilgon (สิทธิ์ 3)",
-                            "note": "5-1/9-1",
-                            "date": "2024-11-25"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "13-2",
@@ -479,7 +463,7 @@
                     "queues": [
                         {
                             "character": "LanaNewerth (สิทธิ์ 3)",
-                            "note": "10-2",
+                            "note": "10-2/12-0",
                             "date": "2024-11-23"
                         }
                     ]
@@ -548,6 +532,11 @@
                             "character": "RaggaeWiz",
                             "note": "10-3/13-1/11-3",
                             "date": "2024-11-23"
+                        },
+                        {
+                            "character": "HeeTaD",
+                            "note": "5-2/14-3/11-1",
+                            "date": "2024-12-01"
                         }
                     ]
                 }
