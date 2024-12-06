@@ -113,7 +113,7 @@
                     "name": "Ebon Roar Gauntlets",
                     "queues": [
                         {
-                            "character": "Bluehawaii",
+                            "character": "Bluehawaii (สิทธิ์ 1)",
                             "date": "2024-11-30"
                         }
                     ]
@@ -178,6 +178,11 @@
                             "character": "Penzilgon (สิทธิ์ 2)",
                             "note": "5-1/9-1/13-1",
                             "date": "2024-11-08"
+                        },
+                        {
+                            "character": "RaggaeWiz (สิทธิ์ 2)",
+                            "note": "10-3/13-1/11-3",
+                            "date": "2024-12-04"
                         }
                     ]
                 }
@@ -249,20 +254,15 @@
                     "name": "Adentus' Gargantuan Greatsword",
                     "queues": [
                         {
-                            "character": "ManiFiest0",
+                            "character": "ManiFiest0 (สิทธิ์ 1)",
                             "date": "2024-10-28"
                         },
                         {
-                            "character": "ElSaberlight",
+                            "character": "ElSaberlight (สิทธิ์ 1)",
                             "date": "2024-11-04"
                         },
                         {
-                            "character": "MeteorVIIx",
-                            "note": "2-0/10-2",
-                            "date": "2024-11-08"
-                        },
-                        {
-                            "character": "Jacriorz7",
+                            "character": "Jacriorz7 (สิทธิ์ 1)",
                             "note": "9-3",
                             "date": "2024-11-08"
                         }
@@ -278,11 +278,11 @@
                             "date": "2024-10-27"
                         },
                         {
-                            "character": "KareeRagnar",
+                            "character": "KareeRagnar (สิทธิ์ 1)",
                             "date": "2024-10-27"
                         },
                         {
-                            "character": "lKaNomHwanl",
+                            "character": "lKaNomHwanl (สิทธิ์ 1)",
                             "note": "5-0",
                             "date": "2024-11-02"
                         }
@@ -309,11 +309,7 @@
                     "name": "Junobote's Juggernaut Warblade",
                     "queues": [
                         {
-                            "character": "BR13",
-                            "date": "2024-11-13"
-                        },
-                        {
-                            "character": "PaoQ",
+                            "character": "PaoQ (สิทธิ์ 1)",
                             "date": "2024-12-02"
                         }
                     ]
@@ -323,15 +319,15 @@
                     "name": "Shadow Harvester Trousers",
                     "queues": [
                         {
-                            "character": "StxywithZxro",
+                            "character": "StxywithZxro (สิทธิ์ 1)",
                             "date": "2024-11-05"
                         },
                         {
-                            "character": "N3RSAN",
+                            "character": "N3RSAN (สิทธิ์ 1)",
                             "date": "2024-11-10"
                         },
                         {
-                            "character": "Boboniwa",
+                            "character": "Boboniwa (สิทธิ์ 1)",
                             "date": "2024-11-30"
                         }
                     ]
@@ -350,8 +346,38 @@
                             "date": "2024-10-28"
                         },
                         {
-                            "character": "STREK",
+                            "character": "STREK (สิทธิ์ 1)",
                             "date": "2024-12-01"
+                        }
+                    ]
+                },
+                {
+                    "id": "11-4",
+                    "name": "Junobote's Lava Spear",
+                    "queues": [
+                        {
+                            "character": "Kypriz (สิทธิ์ 2)",
+                            "note": "11-1",
+                            "date": "2024-12-03"
+                        },
+                        {
+                            "character": "LanaNewerth (สิทธิ์ 1)",
+                            "note": "10-2/12-0",
+                            "date": "2024-12-03"
+                        },
+                        {
+                            "character": "BR13 (สิทธิ์ 1)",
+                            "date": "2024-12-03"
+                        },
+                        {
+                            "character": "Genghisz (สิทธิ์ 1)",
+                            "note": "10-0/11-3",
+                            "date": "2024-12-03"
+                        },
+                        {
+                            "character": "HeeTaD (สิทธิ์ 1)",
+                            "note": "5-2/14-3/11-1",
+                            "date": "2024-12-03"
                         }
                     ]
                 }
@@ -366,11 +392,11 @@
                     "name": "Aelon's Rejuvenating Longbow",
                     "queues": [
                         {
-                            "character": "MelodyMe",
+                            "character": "MelodyMe (สิทธิ์ 1)",
                             "date": "2024-11-03"
                         },
                         {
-                            "character": "UraHala",
+                            "character": "UraHala (สิทธิ์ 1)",
                             "note": "14-2",
                             "date": "2024-12-01"
                         }
@@ -378,37 +404,26 @@
                 },
                 {
                     "id": "12-1",
-                    "name": "Greaves of the Field General",
-                    "queues": [
-                        {
-                            "character": "Genghisz (สิทธิ์ 2)",
-                            "note": "10-0/11-3",
-                            "date": "2024-11-11"
-                        }
-                    ]
-                },
-                {
-                    "id": "12-2",
                     "name": "Arcane Shadow Pants",
                     "queues": []
                 },
                 {
-                    "id": "12-3",
+                    "id": "12-2",
                     "name": "Wrapped Coin Necklace",
                     "queues": [
                         {
-                            "character": "LanaNewerth (สิทธิ์ 2)",
+                            "character": "LanaNewerth (สิทธิ์ 3)",
                             "note": "10-2/12-0",
                             "date": "2024-11-28"
                         }
                     ]
                 },
                 {
-                    "id": "12-4",
+                    "id": "12-3",
                     "name": "Ascended Guardian Raiment",
                     "queues": [
                         {
-                            "character": "PunkTalk",
+                            "character": "PunkTalk (สิทธิ์ 1)",
                             "date": "2024-11-03"
                         }
                     ]
@@ -427,6 +442,11 @@
                             "character": "Penzilgon (สิทธิ์ 1)",
                             "note": "5-1/9-1/13-1",
                             "date": "2024-11-08"
+                        },
+                        {
+                            "character": "MeteorVIIx (สิทธิ์ 1)",
+                            "note": "2-0/10-2",
+                            "date": "2024-12-06"
                         }
                     ]
                 },
@@ -462,7 +482,7 @@
                     "name": "Aridus's Gnarled Voidstaff",
                     "queues": [
                         {
-                            "character": "LanaNewerth (สิทธิ์ 3)",
+                            "character": "LanaNewerth (สิทธิ์ 2)",
                             "note": "10-2/12-0",
                             "date": "2024-11-23"
                         }
@@ -483,15 +503,15 @@
                     "name": "Belt of Bloodlust",
                     "queues": [
                         {
-                            "character": "B3nZury",
+                            "character": "B3nZury (สิทธิ์ 1)",
                             "date": "2024-11-01"
                         },
                         {
-                            "character": "NumniMMM",
+                            "character": "NumniMMM (สิทธิ์ 1)",
                             "date": "2024-11-02"
                         },
                         {
-                            "character": "Baynerlin",
+                            "character": "Baynerlin (สิทธิ์ 1)",
                             "note": "13-1",
                             "date": "2024-11-24"
                         },
@@ -501,9 +521,13 @@
                             "date": "2024-11-25"
                         },
                         {
-                            "character": "IladaSamuel",
+                            "character": "IladaSamuel (สิทธิ์ 1)",
                             "note": "4-0",
                             "date": "2024-12-02"
+                        },
+                        {
+                            "character": "MooMeowMeow (สิทธิ์ 1)",
+                            "date": "2024-12-06"
                         }
                     ]
                 },
@@ -527,18 +551,7 @@
                 {
                     "id": "15-0",
                     "name": "ยังไม่ได้จองคิว",
-                    "queues": [
-                        {
-                            "character": "RaggaeWiz",
-                            "note": "10-3/13-1/11-3",
-                            "date": "2024-11-23"
-                        },
-                        {
-                            "character": "HeeTaD",
-                            "note": "5-2/14-3/11-1",
-                            "date": "2024-12-01"
-                        }
-                    ]
+                    "queues": []
                 }
             ]
         }
