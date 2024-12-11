@@ -28,7 +28,12 @@
                 {
                     "id": "2-0",
                     "name": "Excavator's Mysterious Scepter",
-                    "queues": []
+                    "queues": [
+                        {
+                            "character": "Bluehawaii (สิทธิ์ 2)",
+                            "date": "2024-12-06"
+                        }
+                    ]
                 },
                 {
                     "id": "2-1",
@@ -111,12 +116,7 @@
                 {
                     "id": "5-2",
                     "name": "Ebon Roar Gauntlets",
-                    "queues": [
-                        {
-                            "character": "Bluehawaii (สิทธิ์ 1)",
-                            "date": "2024-11-30"
-                        }
-                    ]
+                    "queues": []
                 },
                 {
                     "id": "5-3",
@@ -183,6 +183,10 @@
                             "character": "RaggaeWiz (สิทธิ์ 2)",
                             "note": "10-3/13-1/11-3",
                             "date": "2024-12-04"
+                        },
+                        {
+                            "character": "Bluehawaii (สิทธิ์ 1)",
+                            "date": "2024-12-06"
                         }
                     ]
                 }
@@ -327,8 +331,9 @@
                             "date": "2024-11-10"
                         },
                         {
-                            "character": "Boboniwa (สิทธิ์ 1)",
-                            "date": "2024-11-30"
+                            "character": "Genghisz (สิทธิ์ 2)",
+                            "note": "10-0/11-3",
+                            "date": "2024-12-08"
                         }
                     ]
                 },
@@ -342,7 +347,7 @@
                     "name": "Forsaken Embrace",
                     "queues": [
                         {
-                            "character": "Teegagutee (สิทธิ์ 1)",
+                            "character": "じおにゃ (สิทธิ์ 1)",
                             "date": "2024-10-28"
                         },
                         {
@@ -528,6 +533,10 @@
                         {
                             "character": "MooMeowMeow (สิทธิ์ 1)",
                             "date": "2024-12-06"
+                        },
+                        {
+                            "character": "Boboniwa (สิทธิ์ 1)",
+                            "date": "2024-12-07"
                         }
                     ]
                 },
