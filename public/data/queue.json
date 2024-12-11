@@ -421,12 +421,7 @@
                 {
                     "id": "12-3",
                     "name": "Ascended Guardian Raiment",
-                    "queues": [
-                        {
-                            "character": "PunkTalk (สิทธิ์ 1)",
-                            "date": "2024-11-03"
-                        }
-                    ]
+                    "queues": []
                 }
             ]
         },
