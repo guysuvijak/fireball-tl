@@ -290,11 +290,6 @@
                     "name": "Shadow Harvester Mask",
                     "queues": [
                         {
-                            "character": "Kypriz (สิทธิ์ 1)",
-                            "note": "11-1",
-                            "date": "2024-10-27"
-                        },
-                        {
                             "character": "KareeRagnar (สิทธิ์ 1)",
                             "date": "2024-10-27"
                         },
@@ -366,7 +361,7 @@
                     "queues": [
                         {
                             "character": "Kypriz (สิทธิ์ 2)",
-                            "note": "11-1",
+                            "note": "11-1/10-1",
                             "date": "2024-12-03"
                         },
                         {
