@@ -26,9 +26,9 @@ Fireball TL is a static guild management website for Throne & Liberty. It is des
 - 📜 **Guild Rules** – Set internal rules and guidelines for guild members
 
 ## 🛠️ Tech Stack
-- <img src="https://avatars.githubusercontent.com/u/126103961" title="Next JS" alt="nextjs" width="20" height="20"/> Next.js 14 – Framework for static site generation.
+- <img src="https://avatars.githubusercontent.com/u/126103961" title="Next JS" alt="nextjs" width="20" height="20"/> Next.js 15 – Framework for static site generation.
 - <img src="https://avatars.githubusercontent.com/u/42876" title="Framer Motion" alt="framermotion" width="20" height="20"/> Framer Motion – Used for animations.
-- <img src="https://avatars.githubusercontent.com/u/67109815" title="Tailwind CSS" alt="tailwindcss" width="20" height="20"/> Tailwind CSS – Utility-first CSS framework for styling.
+- <img src="https://avatars.githubusercontent.com/u/67109815" title="Tailwind CSS" alt="tailwindcss" width="20" height="20"/> TailwindCSS 4 – Utility-first CSS framework for styling.
 - <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" title="TypeScript" alt="typscript" width="20" height="20"/> TypeScript – Strongly typed JavaScript for better maintainability.
 
 ![Project Banner](/public/assets/boss-items/3-0.webp)![Project Banner](/public/assets/boss-items/13-0.webp)![Project Banner](/public/assets/boss-items/10-0.webp)![Project Banner](/public/assets/boss-items/11-0.webp)
