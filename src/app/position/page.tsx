@@ -10,7 +10,7 @@ interface Members {
     w2: string;
 };
 
-const PositionLayout = () => {
+const Position = () => {
     const getWeaponIcon = (weapon: string) => {
         const iconProps = 'w-5 h-5';
         switch (weapon?.toLowerCase()) {
@@ -116,4 +116,4 @@ const PositionLayout = () => {
     );
 };
 
-export default PositionLayout;
+export default Position;

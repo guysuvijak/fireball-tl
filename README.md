@@ -12,7 +12,7 @@ Fireball TL is a static guild management website for Throne & Liberty. It is des
 ## ⚡ Key Points to Know
 - 🛑 No Database – All data is managed as static files.
 - 📂 Static Data Storage – Stored in JSON files inside the public folder.
-- 🌐 Static Website – Built with Next.js 14, but runs entirely on the client-side.
+- 🌐 Static Website – Built with Next.js 15, but runs entirely on the client-side.
 - 🎨 No Theme Color – The UI does not support theme customization.
 - 🌍 No Multi-Language Support – The interface is available only in one language.
 

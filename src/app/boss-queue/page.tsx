@@ -41,7 +41,7 @@ const item = {
     show: { opacity: 1, y: 0 }
 };
 
-export default function BossQueue() {
+const BossQueue = () => {
     const [ bosses, setBosses ] = useState<Boss[]>([]);
     const [ expandedBoss, setExpandedBoss ] = useState<number | null>(null);
     const [ loading, setLoading ] = useState(true);
@@ -325,5 +325,7 @@ export default function BossQueue() {
                 </div>
             </div>
         </motion.div>
-    );
-}
+    )
+};
+
+export default BossQueue;

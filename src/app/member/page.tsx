@@ -55,7 +55,7 @@ const WEAPON_TOOLTIPS: { [key: string]: string } = {
     crossbow: 'Crossbow'
 };
 
-export default function Member() {
+const Member = () => {
     const [ members, setMembers ] = useState<Member[]>([]);
     const [ loading, setLoading ] = useState(true);
     const [ error, setError ] = useState<string | null>(null);
@@ -286,5 +286,7 @@ export default function Member() {
                 className='z-50 bg-gray-900 text-white px-2 py-1 text-sm rounded shadow-lg whitespace-pre-line'
             />
         </motion.div>
-    );
-}
+    )
+};
+
+export default Member;

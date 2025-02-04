@@ -2,7 +2,8 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { FaCheckCircle, FaUsers, FaTrophy, FaQuestionCircle } from 'react-icons/fa';
-import { LuBookmark, LuCheckCircle2, LuXCircle, LuInfo } from 'react-icons/lu';
+import { LuBookmark, LuInfo } from 'react-icons/lu';
+import { GoCheckCircleFill, GoXCircleFill } from 'react-icons/go';
 
 const container = {
     hidden: { opacity: 0 },
@@ -21,7 +22,7 @@ const item = {
 
 interface Rule {
     title: string;
-    icon: JSX.Element;
+    icon: React.ReactNode;
     description: string;
 }
 
@@ -75,7 +76,7 @@ const FAQS: FAQ[] = [
     }
 ];
 
-export default function BossRule() {
+const BossRule = () => {
     const [ expandedFaq, setExpandedFaq ] = useState<number | null>(null);
 
     return (
@@ -216,7 +217,7 @@ export default function BossRule() {
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-8'>
                                 <div className='bg-green-900/30 p-6 rounded-lg'>
                                     <div className='flex items-center mb-4'>
-                                        <LuCheckCircle2 className='text-green-400 mr-2 text-xl' />
+                                        <GoCheckCircleFill className='text-green-400 mr-2 text-xl' />
                                         <h3 className='text-lg font-bold text-white'>คะแนนถึงเกณฑ์</h3>
                                     </div>
                                     <p className='text-gray-300'>
@@ -225,7 +226,7 @@ export default function BossRule() {
                                 </div>
                                 <div className='bg-red-900/30 p-6 rounded-lg'>
                                     <div className='flex items-center mb-4'>
-                                        <LuXCircle className='text-red-400 mr-2 text-xl' />
+                                        <GoXCircleFill className='text-red-400 mr-2 text-xl' />
                                         <h3 className='text-lg font-bold text-white'>คะแนนไม่ถึงเกณฑ์</h3>
                                     </div>
                                     <p className='text-gray-300'>
@@ -353,5 +354,7 @@ export default function BossRule() {
                 </div>
             </div>
         </motion.div>
-    );
-}
+    )
+};
+
+export default BossRule;
