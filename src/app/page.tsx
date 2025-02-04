@@ -55,7 +55,7 @@ const Index = () => {
             y: 0,
             transition: {
                 duration: 0.5,
-                ease: "easeOut"
+                ease: 'easeOut'
             }
         }
     };
@@ -67,7 +67,7 @@ const Index = () => {
             opacity: 1,
             transition: {
                 duration: 0.6,
-                ease: "easeOut"
+                ease: 'easeOut'
             }
         },
         hover: {
@@ -75,7 +75,7 @@ const Index = () => {
             rotate: 5,
             transition: {
                 duration: 0.3,
-                ease: "easeInOut"
+                ease: 'easeInOut'
             }
         }
     };
@@ -95,19 +95,19 @@ const Index = () => {
     ];
 
     return (
-        <div className="h-[calc(100vh-64px)] overflow-auto">
+        <div className='h-[calc(100vh-64px)] overflow-auto'>
             <motion.div 
                 className='flex flex-col w-full bg-gradient-to-b from-gray-900 to-black p-4'
                 variants={containerVariants}
-                initial="hidden"
-                animate="visible"
+                initial='hidden'
+                animate='visible'
             >
                 {/* Hero Section */}
                 <motion.div className='flex flex-col items-center justify-center min-h-[50vh] py-12'>
                     <motion.div
                         className='relative'
                         variants={logoVariants}
-                        whileHover="hover"
+                        whileHover='hover'
                     >
                         <div className='relative w-32 h-32 sm:w-40 sm:h-40'>
                             <Image 

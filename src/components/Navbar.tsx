@@ -26,7 +26,7 @@ const Navbar = () => {
             y: 0,
             transition: {
                 duration: 0.5,
-                ease: "easeOut"
+                ease: 'easeOut'
             }
         }
     };
@@ -56,29 +56,29 @@ const Navbar = () => {
 
     return (
         <motion.nav 
-            className="fixed w-full bg-[#3b3b3b96] backdrop-blur-sm z-50"
-            initial="hidden"
-            animate="visible"
+            className='fixed w-full bg-[#3b3b3b96] backdrop-blur-sm z-50'
+            initial='hidden'
+            animate='visible'
             variants={navVariants}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex items-center justify-between h-16">
-                    <div className="flex-shrink-0">
-                        <Link href="/" className="flex items-center space-x-2">
-                            <div className="relative w-8 h-8">
+            <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+                <div className='flex items-center justify-between h-16'>
+                    <div className='flex-shrink-0'>
+                        <Link href='/' className='flex items-center space-x-2'>
+                            <div className='relative w-8 h-8'>
                                 <Image
-                                    src="/assets/logo.png"
-                                    alt="FIREB4LL"
+                                    src='/assets/logo.png'
+                                    alt='FIREB4LL'
                                     fill
-                                    className="rounded-full object-cover"
+                                    className='rounded-full object-cover'
                                 />
                             </div>
-                            <span className="text-white font-bold text-lg">FIREB4LL</span>
+                            <span className='text-white font-bold text-lg'>FIREB4LL</span>
                         </Link>
                     </div>
 
                     {/* Desktop Navigation */}
-                    <div className="hidden md:flex items-center space-x-4">
+                    <div className='hidden md:flex items-center space-x-4'>
                         {navItems.map((item) => (
                             <motion.div
                                 key={item.href}
@@ -96,11 +96,11 @@ const Navbar = () => {
                                     {item.label}
                                     {isActive(item.href) && (
                                         <motion.div
-                                            layoutId="activeTab"
-                                            className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-500"
+                                            layoutId='activeTab'
+                                            className='absolute bottom-0 left-0 right-0 h-0.5 bg-orange-500'
                                             initial={false}
                                             transition={{
-                                                type: "spring",
+                                                type: 'spring',
                                                 stiffness: 500,
                                                 damping: 30
                                             }}
@@ -112,11 +112,11 @@ const Navbar = () => {
                     </div>
 
                     {/* Mobile menu button */}
-                    <div className="md:hidden">
+                    <div className='md:hidden'>
                         <motion.button
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setIsOpen(!isOpen)}
-                            className="text-gray-400 hover:text-white p-2"
+                            className='text-gray-400 hover:text-white p-2'
                         >
                             {isOpen ? <IoMdClose size={24} /> : <MdOutlineMenu size={24} />}
                         </motion.button>
@@ -128,13 +128,13 @@ const Navbar = () => {
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
-                        initial="closed"
-                        animate="open"
-                        exit="closed"
+                        initial='closed'
+                        animate='open'
+                        exit='closed'
                         variants={mobileMenuVariants}
-                        className="md:hidden"
+                        className='md:hidden'
                     >
-                        <div className="px-2 pt-2 pb-3 space-y-1 bg-gray-900/95 backdrop-blur-sm">
+                        <div className='px-2 pt-2 pb-3 space-y-1 bg-gray-900/95 backdrop-blur-sm'>
                             {navItems.map((item) => (
                                 <motion.div
                                     key={item.href}
@@ -142,7 +142,7 @@ const Navbar = () => {
                                 >
                                     <Link
                                         href={item.href}
-                                        className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                                        className='text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium'
                                         onClick={() => setIsOpen(false)}
                                     >
                                         {item.label}

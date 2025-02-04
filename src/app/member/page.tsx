@@ -113,7 +113,7 @@ export default function Member() {
         return result;
     }, [members, sortConfig]);
 
-    const handleSort = (key: keyof Member | any) => {
+    const handleSort = (key: keyof Member) => {
         setSortConfig(current => ({
             key,
             direction: current.key === key && current.direction === 'asc' ? 'desc' : 'asc'
@@ -126,9 +126,9 @@ export default function Member() {
 
     if (loading) {
         return (
-            <div className="container mx-auto px-4 py-8">
-                <div className="flex justify-center items-center h-64">
-                    <div className="text-white">Loading...</div>
+            <div className='container mx-auto px-4 py-8'>
+                <div className='flex justify-center items-center h-64'>
+                    <div className='text-white'>Loading...</div>
                 </div>
             </div>
         );
@@ -136,9 +136,9 @@ export default function Member() {
 
     if (error) {
         return (
-            <div className="container mx-auto px-4 py-8">
-                <div className="flex justify-center items-center h-64">
-                    <div className="text-red-500">Error: {error}</div>
+            <div className='container mx-auto px-4 py-8'>
+                <div className='flex justify-center items-center h-64'>
+                    <div className='text-red-500'>Error: {error}</div>
                 </div>
             </div>
         );
@@ -258,7 +258,7 @@ export default function Member() {
                                                     </div>
                                                 </div>
                                             ) : (
-                                                <span className="text-gray-500">-</span>
+                                                <span className='text-gray-500'>-</span>
                                             )}
                                         </td>
                                     </motion.tr>

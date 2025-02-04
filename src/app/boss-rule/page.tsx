@@ -27,19 +27,19 @@ interface Rule {
 
 const MAIN_RULES: Rule[] = [
     {
-        title: "การจองไอเทม",
-        icon: <FaCheckCircle className="w-6 h-6 text-green-400" />,
-        description: "สมาชิกมีสิทธิ์จองไอเทม 1 ชิ้นจากบอสใดก็ได้ เมื่อได้รับแล้วต้องต่อคิวใหม่ (จองผ่านดิสคอร์ด)"
+        title: 'การจองไอเทม',
+        icon: <FaCheckCircle className='w-6 h-6 text-green-400' />,
+        description: 'สมาชิกมีสิทธิ์จองไอเทม 1 ชิ้นจากบอสใดก็ได้ เมื่อได้รับแล้วต้องต่อคิวใหม่ (จองผ่านดิสคอร์ด)'
     },
     {
-        title: "สิทธิ์เลือกบอส",
-        icon: <FaTrophy className="w-6 h-6 text-yellow-400" />,
-        description: "ผู้ที่มีแต้มส่วนร่วมสูงสุดจะได้สิทธิ์เลือกบอสที่ต้องการตี (7 คน)"
+        title: 'สิทธิ์เลือกบอส',
+        icon: <FaTrophy className='w-6 h-6 text-yellow-400' />,
+        description: 'ผู้ที่มีแต้มส่วนร่วมสูงสุดจะได้สิทธิ์เลือกบอสที่ต้องการตี (7 คน)'
     },
     {
-        title: "เงื่อนไขรับไอเทม",
-        icon: <FaUsers className="w-6 h-6 text-blue-400" />,
-        description: "ผู้เข้าร่วมตีบอสต้องมีแต้มส่วนร่วม 4,000+ หรือไม่เข้าร่วมแต่มีแต้ม 6,000+ จึงมีสิทธิ์รับไอเทม"
+        title: 'เงื่อนไขรับไอเทม',
+        icon: <FaUsers className='w-6 h-6 text-blue-400' />,
+        description: 'ผู้เข้าร่วมตีบอสต้องมีแต้มส่วนร่วม 4,000+ หรือไม่เข้าร่วมแต่มีแต้ม 6,000+ จึงมีสิทธิ์รับไอเทม'
     }
 ];
 
@@ -50,28 +50,28 @@ interface FAQ {
 
 const FAQS: FAQ[] = [
     {
-        question: "จำนวนบอสที่ตีแต่ละวัน?",
-        answer: "เสาร์ (3 ตัว), อาทิตย์ (4 ตัว)"
+        question: 'จำนวนบอสที่ตีแต่ละวัน?',
+        answer: 'เสาร์ (3 ตัว), อาทิตย์ (4 ตัว)'
     },
     {
-        question: "เงื่อนไขการรับไอเทมหากไม่ได้เข้าร่วม?",
-        answer: "สำหรับคนที่ไม่มาตีบอสในวันที่ของดรอป ต้องมีแต้มส่วนร่วม 6,000 ขึ้นไป (ถ้าไม่ถึงของจะถูกส่งในคิวถัดไป / แต่คุณจะยังเป็นหัวคิวเหมือนเดิม)"
+        question: 'เงื่อนไขการรับไอเทมหากไม่ได้เข้าร่วม?',
+        answer: 'สำหรับคนที่ไม่มาตีบอสในวันที่ของดรอป ต้องมีแต้มส่วนร่วม 6,000 ขึ้นไป (ถ้าไม่ถึงของจะถูกส่งในคิวถัดไป / แต่คุณจะยังเป็นหัวคิวเหมือนเดิม)'
     },
     {
-        question: "อยากเลือกบอสกิลด์ ที่ฉันต้องการจะตี ทำยังไง?",
-        answer: "เก็บคะแนนส่วนร่วมกิลด์ให้ติดอันดับแรก ๆ ประจำสัปดาห์"
+        question: 'อยากเลือกบอสกิลด์ ที่ฉันต้องการจะตี ทำยังไง?',
+        answer: 'เก็บคะแนนส่วนร่วมกิลด์ให้ติดอันดับแรก ๆ ประจำสัปดาห์'
     },
     {
-        question: "สามารถจองไอเทมจากบอสคนละตัวได้หรือไม่?",
-        answer: "ไม่ได้ สามารถจองได้เพียง 1 ชิ้นเท่านั้น"
+        question: 'สามารถจองไอเทมจากบอสคนละตัวได้หรือไม่?',
+        answer: 'ไม่ได้ สามารถจองได้เพียง 1 ชิ้นเท่านั้น'
     },
     {
-        question: "เลือกของบอส 2 ชิ้น แต่ดรอปจากบอสคนละตัวได้มั้ย?",
-        answer: "ไม่ได้ เลือกได้แค่ชิ้นเดียวเท่านั้น"
+        question: 'เลือกของบอส 2 ชิ้น แต่ดรอปจากบอสคนละตัวได้มั้ย?',
+        answer: 'ไม่ได้ เลือกได้แค่ชิ้นเดียวเท่านั้น'
     },
     {
-        question: "ถ้าจองของชิ้นเดียวกันหลาย ๆ คน จะไม่รอคิวนานเกินไปหรอ?",
-        answer: "นาน หากไม่ดรอปเลย แต่อย่าลืมว่า หากมีคนต้องการเยอะ แปลว่าจะมีคนเลือกบอสตัวนั้นเยอะด้วยเช่นกัน (Demand & Supply)"
+        question: 'ถ้าจองของชิ้นเดียวกันหลาย ๆ คน จะไม่รอคิวนานเกินไปหรอ?',
+        answer: 'นาน หากไม่ดรอปเลย แต่อย่าลืมว่า หากมีคนต้องการเยอะ แปลว่าจะมีคนเลือกบอสตัวนั้นเยอะด้วยเช่นกัน (Demand & Supply)'
     }
 ];
 
@@ -82,37 +82,37 @@ export default function BossRule() {
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            className="h-[calc(100vh-64px)] flex flex-col"
+            className='h-[calc(100vh-64px)] flex flex-col'
         >
-            <div className="container mx-auto px-4 py-6">
-                <h1 className="text-3xl font-bold text-white">กติกาการแจกของบอส</h1>
+            <div className='container mx-auto px-4 py-6'>
+                <h1 className='text-3xl font-bold text-white'>กติกาการแจกของบอส</h1>
             </div>
 
-            <div className="flex-1 min-h-0">
-                <div className="container mx-auto px-4 h-full">
-                    <div className="h-full overflow-auto pb-6">
+            <div className='flex-1 min-h-0'>
+                <div className='container mx-auto px-4 h-full'>
+                    <div className='h-full overflow-auto pb-6'>
                         <motion.div
                             variants={container}
-                            initial="hidden"
-                            animate="show"
-                            className="space-y-8"
+                            initial='hidden'
+                            animate='show'
+                            className='space-y-8'
                         >
                             {/* Main Rules */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                                 {MAIN_RULES.map((rule, index) => (
                                     <motion.div
                                         key={index}
                                         variants={item}
-                                        className="bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden hover:bg-gray-800/90 transition-colors border border-blue-500/20"
+                                        className='bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden hover:bg-gray-800/90 transition-colors border border-blue-500/20'
                                     >
-                                        <div className="p-6">
-                                            <div className="flex items-center gap-4 mb-4">
+                                        <div className='p-6'>
+                                            <div className='flex items-center gap-4 mb-4'>
                                                 {rule.icon}
-                                                <h2 className="text-xl font-semibold text-white">
+                                                <h2 className='text-xl font-semibold text-white'>
                                                     {rule.title}
                                                 </h2>
                                             </div>
-                                            <p className="text-gray-300">
+                                            <p className='text-gray-300'>
                                                 {rule.description}
                                             </p>
                                         </div>
@@ -123,30 +123,30 @@ export default function BossRule() {
                             {/* FAQs */}
                             <motion.div
                                 variants={item}
-                                className="bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden border border-blue-500/20"
+                                className='bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden border border-blue-500/20'
                             >
-                                <div className="p-6">
-                                    <div className="flex items-center gap-3 mb-6">
-                                        <FaQuestionCircle className="w-6 h-6 text-blue-400" />
-                                        <h2 className="text-xl font-semibold text-white">คำถามที่พบบ่อย</h2>
+                                <div className='p-6'>
+                                    <div className='flex items-center gap-3 mb-6'>
+                                        <FaQuestionCircle className='w-6 h-6 text-blue-400' />
+                                        <h2 className='text-xl font-semibold text-white'>คำถามที่พบบ่อย</h2>
                                     </div>
-                                    <div className="space-y-4">
+                                    <div className='space-y-4'>
                                         {FAQS.map((faq, index) => (
                                             <div
                                                 key={index}
-                                                className="border border-gray-700 rounded-lg overflow-hidden bg-gray-900/50"
+                                                className='border border-gray-700 rounded-lg overflow-hidden bg-gray-900/50'
                                             >
                                                 <button
-                                                    className="w-full p-4 text-left flex items-center justify-between text-gray-300 hover:text-white transition-colors"
+                                                    className='w-full p-4 text-left flex items-center justify-between text-gray-300 hover:text-white transition-colors'
                                                     onClick={() => setExpandedFaq(expandedFaq === index ? null : index)}
                                                 >
                                                     <span>{faq.question}</span>
-                                                    <span className="text-blue-400">
+                                                    <span className='text-blue-400'>
                                                         {expandedFaq === index ? '−' : '+'}
                                                     </span>
                                                 </button>
                                                 {expandedFaq === index && (
-                                                    <div className="px-4 py-4 text-gray-100 border-t border-gray-700 bg-gray-700">
+                                                    <div className='px-4 py-4 text-gray-100 border-t border-gray-700 bg-gray-700'>
                                                         {faq.answer}
                                                     </div>
                                                 )}
@@ -159,34 +159,34 @@ export default function BossRule() {
                             {/* Last Updated */}
                             <motion.div
                                 variants={item}
-                                className="text-center text-sm text-gray-400 pb-6"
+                                className='text-center text-sm text-gray-400 pb-6'
                             >
                                 อัพเดทล่าสุด: 08/11/2024
                             </motion.div>
                         </motion.div>
 
-                        <div className="max-w-4xl mx-auto p-6 bg-gray-800 rounded-lg shadow-xl">
+                        <div className='max-w-4xl mx-auto p-6 bg-gray-800 rounded-lg shadow-xl'>
                             {/* Header */}
-                            <h1 className="text-2xl font-bold text-center text-white mb-8">
+                            <h1 className='text-2xl font-bold text-center text-white mb-8'>
                                 ระบบจองของบอสกิลด์แบบใหม่
                             </h1>
 
                             {/* Points Tiers */}
-                            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+                            <div className='grid grid-cols-1 md:grid-cols-4 gap-4 mb-8'>
                                 {[
-                                    { points: "4,000-20,000", items: 1 },
-                                    { points: "20,000+", items: 2 },
-                                    { points: "30,000+", items: 3 },
-                                    { points: "40,000+", items: 4 }
+                                    { points: '4,000-20,000', items: 1 },
+                                    { points: '20,000+', items: 2 },
+                                    { points: '30,000+', items: 3 },
+                                    { points: '40,000+', items: 4 }
                                 ].map((tier, index) => (
-                                    <div key={index} className="bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition-colors">
-                                        <div className="text-gray-400 text-md">
+                                    <div key={index} className='bg-gray-700 p-4 rounded-lg text-center hover:bg-gray-600 transition-colors'>
+                                        <div className='text-gray-400 text-md'>
                                             ระดับ {tier.items}
                                         </div>
-                                        <div className="text-xl font-bold text-orange-400 my-2">
+                                        <div className='text-xl font-bold text-orange-400 my-2'>
                                             {tier.items} ชิ้น
                                         </div>
-                                        <div className="text-gray-300 text-sm">
+                                        <div className='text-gray-300 text-sm'>
                                             คะแนน {tier.points}
                                         </div>
                                     </div>
@@ -194,18 +194,18 @@ export default function BossRule() {
                             </div>
 
                             {/* Rules */}
-                            <div className="bg-gray-700 rounded-lg p-6 mb-8">
-                                <h2 className="text-xl font-bold text-white mb-4">กฎการจอง</h2>
-                                <div className="space-y-4">
+                            <div className='bg-gray-700 rounded-lg p-6 mb-8'>
+                                <h2 className='text-xl font-bold text-white mb-4'>กฎการจอง</h2>
+                                <div className='space-y-4'>
                                     {[
-                                        "เข้ากิลด์ใหม่ สามารถจองได้ 1 ชิ้นทันที",
-                                        "ห้ามจองของซ้ำ (ทั้งในคิวตัวเอง & ที่เคยได้ไปแล้ว)",
-                                        "จองได้สูงสุด 1-4 ชิ้น (ตามเกณฑ์)",
-                                        "จองตั้งแต่ชิ้นที่ 2 ต้องแนบหลักฐานคะแนน",
-                                        "ตั้งแต่ชิ้นที่ 2 ต้องระบุว่าของที่จองแต่ละชิ้น ใช้สิทธิ์คะแนนไหนในการจอง"
+                                        'เข้ากิลด์ใหม่ สามารถจองได้ 1 ชิ้นทันที',
+                                        'ห้ามจองของซ้ำ (ทั้งในคิวตัวเอง & ที่เคยได้ไปแล้ว)',
+                                        'จองได้สูงสุด 1-4 ชิ้น (ตามเกณฑ์)',
+                                        'จองตั้งแต่ชิ้นที่ 2 ต้องแนบหลักฐานคะแนน',
+                                        'ตั้งแต่ชิ้นที่ 2 ต้องระบุว่าของที่จองแต่ละชิ้น ใช้สิทธิ์คะแนนไหนในการจอง'
                                     ].map((rule, index) => (
-                                        <div key={index} className="flex items-center text-gray-300">
-                                            <LuBookmark className="text-orange-400 mr-2" />
+                                        <div key={index} className='flex items-center text-gray-300'>
+                                            <LuBookmark className='text-orange-400 mr-2' />
                                             {rule}
                                         </div>
                                     ))}
@@ -213,34 +213,34 @@ export default function BossRule() {
                             </div>
 
                             {/* Drop Scenarios */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                                <div className="bg-green-900/30 p-6 rounded-lg">
-                                    <div className="flex items-center mb-4">
-                                        <LuCheckCircle2 className="text-green-400 mr-2 text-xl" />
-                                        <h3 className="text-lg font-bold text-white">คะแนนถึงเกณฑ์</h3>
+                            <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mb-8'>
+                                <div className='bg-green-900/30 p-6 rounded-lg'>
+                                    <div className='flex items-center mb-4'>
+                                        <LuCheckCircle2 className='text-green-400 mr-2 text-xl' />
+                                        <h3 className='text-lg font-bold text-white'>คะแนนถึงเกณฑ์</h3>
                                     </div>
-                                    <p className="text-gray-300">
+                                    <p className='text-gray-300'>
                                         ได้รับของตามคิวปกติ
                                     </p>
                                 </div>
-                                <div className="bg-red-900/30 p-6 rounded-lg">
-                                    <div className="flex items-center mb-4">
-                                        <LuXCircle className="text-red-400 mr-2 text-xl" />
-                                        <h3 className="text-lg font-bold text-white">คะแนนไม่ถึงเกณฑ์</h3>
+                                <div className='bg-red-900/30 p-6 rounded-lg'>
+                                    <div className='flex items-center mb-4'>
+                                        <LuXCircle className='text-red-400 mr-2 text-xl' />
+                                        <h3 className='text-lg font-bold text-white'>คะแนนไม่ถึงเกณฑ์</h3>
                                     </div>
-                                    <p className="text-gray-300">
+                                    <p className='text-gray-300'>
                                         ข้ามคิว แต่ยังเป็นหัวคิว
                                     </p>
                                 </div>
                             </div>
 
                             {/* Example */}
-                            <div className="bg-blue-900/30 p-6 rounded-lg">
-                                <div className="flex items-center mb-4">
-                                    <LuInfo className="text-blue-400 mr-2 text-xl" />
-                                    <h3 className="text-lg font-bold text-white">ตัวอย่าง</h3>
+                            <div className='bg-blue-900/30 p-6 rounded-lg'>
+                                <div className='flex items-center mb-4'>
+                                    <LuInfo className='text-blue-400 mr-2 text-xl' />
+                                    <h3 className='text-lg font-bold text-white'>ตัวอย่าง</h3>
                                 </div>
-                                <div className="text-gray-300 space-y-2">
+                                <div className='text-gray-300 space-y-2'>
                                     <p>จองของ A = ใช้สิทธิ์ของแต้ม 4,000-20,000 (ระดับ 1)</p>
                                     <p className='pb-4'>จองของ B = ใช้สิทธิ์ของแต้ม 20,000+ (ระดับ 2)</p>
                                     <p>ตัวอย่าง: หากเป็นหัวคิวของ B เมื่อบอสดรอปของมา จะเช็คสิทธิ์ก่อน</p>
@@ -251,37 +251,37 @@ export default function BossRule() {
 
                             <div className='bg-orange-300 w-full h-[3px] mt-8'></div>
 
-                            <div className="max-w-4xl mx-auto p-6 space-y-6 text-white">
-                                <div className="space-y-2">
-                                    <h1 className="text-2xl font-bold flex items-center gap-2">
+                            <div className='max-w-4xl mx-auto p-6 space-y-6 text-white'>
+                                <div className='space-y-2'>
+                                    <h1 className='text-2xl font-bold flex items-center gap-2'>
                                     <span>📢</span> ประกาศโหวตปรับระบบจองของบอสกิลด์
                                     </h1>
                                 </div>
 
-                                <div className="space-y-2">
-                                    <h2 className="text-xl font-bold flex items-center gap-2">
+                                <div className='space-y-2'>
+                                    <h2 className='text-xl font-bold flex items-center gap-2'>
                                         <span>🔄</span> ระบบปัจจุบัน
                                     </h2>
-                                    <ul className="list-disc pl-6 space-y-1">
+                                    <ul className='list-disc pl-6 space-y-1'>
                                         <li>สมาชิก 1 คน จองได้ 1 ชิ้นเท่านั้น</li>
                                         <li>หากต้องการจองของชิ้นใหม่ ต้องย้ายคิวเดิมไปจองของใหม่</li>
                                     </ul>
                                 </div>
 
-                                <div className="space-y-4">
-                                    <h2 className="text-xl font-bold flex items-center gap-2">
+                                <div className='space-y-4'>
+                                    <h2 className='text-xl font-bold flex items-center gap-2'>
                                         <span>⭐</span> ระบบใหม่ (ขึ้นอยู่กับคะแนนส่วนร่วม)
                                     </h2>
-                                    <ul className="list-disc pl-6 space-y-1">
+                                    <ul className='list-disc pl-6 space-y-1'>
                                         <li>สมาชิก 1 คน จองได้มากกว่า 1 ชิ้น (ขึ้นอยู่กับคะแนนส่วนร่วม)</li>
                                         <li>ต่อคิวเหมือนเดิม (จองก่อนได้ก่อน จองหลังได้หลัง)</li>
                                     </ul>
 
-                                    <div className="space-y-2">
-                                    <h3 className="text-lg font-bold flex items-center gap-2">
+                                    <div className='space-y-2'>
+                                    <h3 className='text-lg font-bold flex items-center gap-2'>
                                         <span>📊</span> เกณฑ์การจอง
                                     </h3>
-                                    <ul className="list-disc pl-6 space-y-1">
+                                    <ul className='list-disc pl-6 space-y-1'>
                                         <li>คะแนน 4,000-20,000 = จองได้ 1 ชิ้น</li>
                                         <li>คะแนน 20,000+ = จองได้ 2 ชิ้น</li>
                                         <li>คะแนน 30,000+ = จองได้ 3 ชิ้น</li>
@@ -289,11 +289,11 @@ export default function BossRule() {
                                     </ul>
                                     </div>
 
-                                    <div className="space-y-2">
-                                    <h3 className="text-lg font-bold flex items-center gap-2">
+                                    <div className='space-y-2'>
+                                    <h3 className='text-lg font-bold flex items-center gap-2'>
                                         <span>⚠️</span> กฎการจอง
                                     </h3>
-                                    <ol className="list-decimal pl-6 space-y-1">
+                                    <ol className='list-decimal pl-6 space-y-1'>
                                         <li>จองได้สูงสุด 1-4 ชิ้น (ตามเกณฑ์)</li>
                                         <li>ห้ามจองของซ้ำ</li>
                                         <li>จองมากกว่า 1 ชิ้น ต้องระบุระดับการจอง</li>
@@ -301,29 +301,29 @@ export default function BossRule() {
                                     </ol>
                                     </div>
 
-                                    <div className="space-y-2">
-                                        <h3 className="text-lg font-bold flex items-center gap-2">
+                                    <div className='space-y-2'>
+                                        <h3 className='text-lg font-bold flex items-center gap-2'>
                                             <span>📝</span> ตัวอย่างการจอง
                                         </h3>
-                                        <div className="bg-gray-800 p-4 rounded-lg">
+                                        <div className='bg-gray-800 p-4 rounded-lg'>
                                             <div>จองของ A = ใช้สิทธิ์แต้ม 4,000-20,000</div>
                                             <div>จองของ B = ใช้สิทธิ์แต้ม 20,000+</div>
                                         </div>
                                     </div>
 
-                                    <div className="space-y-2">
-                                        <h3 className="text-lg font-bold flex items-center gap-2">
+                                    <div className='space-y-2'>
+                                        <h3 className='text-lg font-bold flex items-center gap-2'>
                                             <span>🎯</span> เงื่อนไขการได้รับของ
                                         </h3>
-                                        <div className="pl-4">
-                                            <div className="mb-2">สมมติบอสดรอปของ B:</div>
-                                            <ol className="list-decimal pl-6 space-y-1">
-                                                <li className="flex items-center gap-2">
-                                                    <span className="text-green-400">✅</span>
+                                        <div className='pl-4'>
+                                            <div className='mb-2'>สมมติบอสดรอปของ B:</div>
+                                            <ol className='list-decimal pl-6 space-y-1'>
+                                                <li className='flex items-center gap-2'>
+                                                    <span className='text-green-400'>✅</span>
                                                     ถ้ามีแต้ม 20,000+ = ได้รับของตามคิวปกติ
                                                 </li>
-                                                <li className="flex items-center gap-2">
-                                                    <span className="text-red-400">❌</span>
+                                                <li className='flex items-center gap-2'>
+                                                    <span className='text-red-400'>❌</span>
                                                     ถ้าแต้มไม่ถึง 20,000+ = ไม่ได้รับของ (ข้ามคิว แต่ยังเป็นหัวคิว)
                                                 </li>
                                             </ol>
@@ -331,14 +331,14 @@ export default function BossRule() {
                                     </div>
                                 </div>
 
-                                <div className="space-y-2">
-                                    <h2 className="text-xl font-bold flex items-center gap-2">
+                                <div className='space-y-2'>
+                                    <h2 className='text-xl font-bold flex items-center gap-2'>
                                         <span>💡</span> เหตุผลในการปรับระบบ
                                     </h2>
-                                    <ul className="list-disc pl-6 space-y-1">
+                                    <ul className='list-disc pl-6 space-y-1'>
                                         <li>คะแนนส่วนร่วมสะท้อนความขยันและการช่วยกิลด์</li>
                                         <li>สร้างความเท่าเทียมตามผลงาน
-                                            <ul className="list-disc pl-6 mt-1">
+                                            <ul className='list-disc pl-6 mt-1'>
                                                 <li>ทำมาก = ได้มาก</li>
                                                 <li>ทำน้อย = ได้น้อย</li>
                                             </ul>

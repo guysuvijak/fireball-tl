@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from 'next/link';
  
 export default function NotFoundPage() {
     return (
@@ -8,4 +8,4 @@ export default function NotFoundPage() {
             <Link href='./' className='text-[20px] underline text-blue-600'>Back</Link>
         </div>
     )
-}
+};

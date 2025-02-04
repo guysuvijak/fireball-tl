@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
 }
  
-export default async function LocaleLayout({children}: any) {
+export default async function LocaleLayout({children}: Readonly<{children: React.ReactNode}>) {
     return (
         <html style={{ height: '100%' }}>
             <body style={{display: 'flex', flexDirection: 'column', minHeight: '100vh' }} className='bg-gradient-to-b from-gray-900 to-black'>
