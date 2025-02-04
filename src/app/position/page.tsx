@@ -72,7 +72,7 @@ const Position = () => {
     const PositionBox = ({ title, members }: {title: string, members: Members[]}) => (
         <div className='w-full max-w-md mb-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden'>
             <div className='p-4'>
-                <h3 className='text-lg font-bold mb-3 text-center text-gray-200'>{title}</h3>
+                <h2 className='text-lg font-bold mb-3 text-center text-gray-200'>{title}</h2>
                 <div className='grid grid-cols-2 gap-2'>
                     {members.map((member: Members, idx: number) => (
                         <div 

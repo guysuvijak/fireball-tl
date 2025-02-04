@@ -12,19 +12,19 @@ interface QueueItem {
     character: string;
     note?: string;
     date: string;
-}
+};
 
 interface ItemDrop {
     id: string;
     name: string;
     queues: QueueItem[];
-}
+};
 
 interface Boss {
     id: number;
     name: string;
     items: ItemDrop[];
-}
+};
 
 const container = {
     hidden: { opacity: 0 },
@@ -132,7 +132,7 @@ const BossQueue = () => {
             className='min-h-screen flex flex-col'
         >
             <div className='container mx-auto px-4 py-6 overflow-hidden'>
-                <div className='grid grid-cols-1 lg:grid-cols-4 gap-6 h-full'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-6 h-full'>
                     {/* Main content - 3 columns */}
                     <div className='lg:col-span-3 flex flex-col h-full'>
                         <h1 className='text-3xl font-bold text-white flex items-baseline gap-3'>
@@ -148,7 +148,7 @@ const BossQueue = () => {
                                 variants={container}
                                 initial='hidden'
                                 animate='show'
-                                className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-6'
+                                className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 pb-6'
                             >
                                 {bosses.map((boss) => (
                                     <motion.div
@@ -197,14 +197,14 @@ const BossQueue = () => {
                                                     <div className='flex gap-4 items-start'>
                                                         <div className='relative w-[50px] h-[50px] flex-shrink-0 bg-gradient-to-b from-[#21172a] via-[#311f3c] to-[#643e7b] border-2 border-[#ae8b7b]'>
                                                             <Image
-                                                                src={`/assets/boss-items/${boss.id}-${idx}.png`}
+                                                                src={`/assets/boss-items/${boss.id}-${idx}.webp`}
                                                                 alt={item.name}
                                                                 fill
                                                                 className='object-contain'
                                                             />
                                                         </div>
                                                         <div className='flex-1'>
-                                                            <h3 className='text-blue-400 font-medium'>
+                                                            <h2 className='text-blue-400 font-medium'>
                                                                 <span className='mr-1 text-gray-300'>{item.id}</span>
                                                                 {item.name}
                                                                 {item.queues.length > 0 && (
@@ -212,7 +212,7 @@ const BossQueue = () => {
                                                                         ({item.queues.length} คิว)
                                                                     </span>
                                                                 )}
-                                                            </h3>
+                                                            </h2>
                                                             {item.queues.length > 0 ? (
                                                                 <div className='space-y-1 pl-4 border-l-2 border-gray-700 mt-2'>
                                                                     {item.queues.map((queue, qIdx) => (
@@ -281,10 +281,10 @@ const BossQueue = () => {
                                     </div>
                                 </div>
                                 <div className='mt-6 space-y-4'>
-                                    <h3 className='text-lg font-semibold text-white flex items-center gap-2'>
+                                    <h2 className='text-lg font-semibold text-white flex items-center gap-2'>
                                         <FaCalendarAlt className='w-5 h-5 text-purple-400' />
                                         กำหนดการตีบอส
-                                    </h3>
+                                    </h2>
                                     
                                     <div className='space-y-2'>
                                         <div className='flex justify-between items-center'>
@@ -305,10 +305,10 @@ const BossQueue = () => {
                             
                             {/* Popular Bosses */}
                             <div className='bg-gray-800/50 rounded-lg p-4 backdrop-blur-sm sticky top-[280px]'>
-                                <h3 className='text-lg font-semibold text-white flex items-center gap-2 mb-2'>
+                                <h2 className='text-lg font-semibold text-white flex items-center gap-2 mb-2'>
                                     <FaRankingStar className='w-5 h-5 text-yellow-400' />
                                     บอสยอดนิยม
-                                </h3>
+                                </h2>
                                 {getPopularBosses(bosses).map((boss, index) => (
                                     <div key={index} className='flex justify-between items-center mb-2'>
                                         <span className='text-gray-300'>

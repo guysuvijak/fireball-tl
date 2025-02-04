@@ -67,8 +67,8 @@ const Navbar = () => {
                         <Link href='/' className='flex items-center space-x-2'>
                             <div className='relative w-8 h-8'>
                                 <Image
-                                    src='/assets/logo.png'
-                                    alt='FIREB4LL'
+                                    src='/assets/logo.webp'
+                                    alt='FIREB4LL logo - gaming community'
                                     fill
                                     className='rounded-full object-cover'
                                 />
@@ -117,6 +117,7 @@ const Navbar = () => {
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setIsOpen(!isOpen)}
                             className='text-gray-400 hover:text-white p-2'
+                            aria-label={isOpen ? 'Close menu' : 'Open menu'}
                         >
                             {isOpen ? <IoMdClose size={24} /> : <MdOutlineMenu size={24} />}
                         </motion.button>

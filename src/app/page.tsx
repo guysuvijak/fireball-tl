@@ -9,7 +9,7 @@ interface Update {
     id: number;
     title: string;
     date: string;
-}
+};
 
 const Index = () => {
     const [ updates, setUpdates ] = useState<Update[]>([]);
@@ -19,12 +19,10 @@ const Index = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                // ดึงข้อมูล updates
                 const updatesResponse = await fetch('/data/update.json');
                 const updatesData = await updatesResponse.json();
                 setUpdates(updatesData.updates);
-
-                // ดึงข้อมูล members และนับจำนวน
+                
                 const membersResponse = await fetch('/data/member.json');
                 const membersData = await membersResponse.json();
                 setMemberCount(membersData.members.length);
@@ -111,7 +109,7 @@ const Index = () => {
                     >
                         <div className='relative w-32 h-32 sm:w-40 sm:h-40'>
                             <Image 
-                                src='/assets/logo.png' 
+                                src='/assets/logo.webp' 
                                 alt='fireball-logo' 
                                 fill
                                 className='rounded-full object-cover shadow-lg shadow-orange-500/20'

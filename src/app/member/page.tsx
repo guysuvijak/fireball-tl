@@ -17,7 +17,7 @@ interface Member {
     pve: number;
     pvp: number;
     style?: number;
-}
+};
 
 type SortConfig = {
     key: keyof Member | null;

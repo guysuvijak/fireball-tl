@@ -24,7 +24,7 @@ interface Rule {
     title: string;
     icon: React.ReactNode;
     description: string;
-}
+};
 
 const MAIN_RULES: Rule[] = [
     {
@@ -47,7 +47,7 @@ const MAIN_RULES: Rule[] = [
 interface FAQ {
     question: string;
     answer: string;
-}
+};
 
 const FAQS: FAQ[] = [
     {
@@ -218,7 +218,7 @@ const BossRule = () => {
                                 <div className='bg-green-900/30 p-6 rounded-lg'>
                                     <div className='flex items-center mb-4'>
                                         <GoCheckCircleFill className='text-green-400 mr-2 text-xl' />
-                                        <h3 className='text-lg font-bold text-white'>คะแนนถึงเกณฑ์</h3>
+                                        <h2 className='text-lg font-bold text-white'>คะแนนถึงเกณฑ์</h2>
                                     </div>
                                     <p className='text-gray-300'>
                                         ได้รับของตามคิวปกติ
@@ -227,7 +227,7 @@ const BossRule = () => {
                                 <div className='bg-red-900/30 p-6 rounded-lg'>
                                     <div className='flex items-center mb-4'>
                                         <GoXCircleFill className='text-red-400 mr-2 text-xl' />
-                                        <h3 className='text-lg font-bold text-white'>คะแนนไม่ถึงเกณฑ์</h3>
+                                        <h2 className='text-lg font-bold text-white'>คะแนนไม่ถึงเกณฑ์</h2>
                                     </div>
                                     <p className='text-gray-300'>
                                         ข้ามคิว แต่ยังเป็นหัวคิว
@@ -239,7 +239,7 @@ const BossRule = () => {
                             <div className='bg-blue-900/30 p-6 rounded-lg'>
                                 <div className='flex items-center mb-4'>
                                     <LuInfo className='text-blue-400 mr-2 text-xl' />
-                                    <h3 className='text-lg font-bold text-white'>ตัวอย่าง</h3>
+                                    <h2 className='text-lg font-bold text-white'>ตัวอย่าง</h2>
                                 </div>
                                 <div className='text-gray-300 space-y-2'>
                                     <p>จองของ A = ใช้สิทธิ์ของแต้ม 4,000-20,000 (ระดับ 1)</p>
@@ -279,9 +279,9 @@ const BossRule = () => {
                                     </ul>
 
                                     <div className='space-y-2'>
-                                    <h3 className='text-lg font-bold flex items-center gap-2'>
+                                    <h2 className='text-lg font-bold flex items-center gap-2'>
                                         <span>📊</span> เกณฑ์การจอง
-                                    </h3>
+                                    </h2>
                                     <ul className='list-disc pl-6 space-y-1'>
                                         <li>คะแนน 4,000-20,000 = จองได้ 1 ชิ้น</li>
                                         <li>คะแนน 20,000+ = จองได้ 2 ชิ้น</li>
@@ -291,9 +291,9 @@ const BossRule = () => {
                                     </div>
 
                                     <div className='space-y-2'>
-                                    <h3 className='text-lg font-bold flex items-center gap-2'>
+                                    <h2 className='text-lg font-bold flex items-center gap-2'>
                                         <span>⚠️</span> กฎการจอง
-                                    </h3>
+                                    </h2>
                                     <ol className='list-decimal pl-6 space-y-1'>
                                         <li>จองได้สูงสุด 1-4 ชิ้น (ตามเกณฑ์)</li>
                                         <li>ห้ามจองของซ้ำ</li>
@@ -303,9 +303,9 @@ const BossRule = () => {
                                     </div>
 
                                     <div className='space-y-2'>
-                                        <h3 className='text-lg font-bold flex items-center gap-2'>
+                                        <h2 className='text-lg font-bold flex items-center gap-2'>
                                             <span>📝</span> ตัวอย่างการจอง
-                                        </h3>
+                                        </h2>
                                         <div className='bg-gray-800 p-4 rounded-lg'>
                                             <div>จองของ A = ใช้สิทธิ์แต้ม 4,000-20,000</div>
                                             <div>จองของ B = ใช้สิทธิ์แต้ม 20,000+</div>
@@ -313,9 +313,9 @@ const BossRule = () => {
                                     </div>
 
                                     <div className='space-y-2'>
-                                        <h3 className='text-lg font-bold flex items-center gap-2'>
+                                        <h2 className='text-lg font-bold flex items-center gap-2'>
                                             <span>🎯</span> เงื่อนไขการได้รับของ
-                                        </h3>
+                                        </h2>
                                         <div className='pl-4'>
                                             <div className='mb-2'>สมมติบอสดรอปของ B:</div>
                                             <ol className='list-decimal pl-6 space-y-1'>

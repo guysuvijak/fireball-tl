@@ -8,14 +8,14 @@ export const metadata: Metadata = {
     description: 'Together, we burn brighter!',
     openGraph: {
         title: 'FIREB4LL',
-        description: 'Together, we burn brighter!',
+        description: 'Together, we burn brighter! Fireball TL is a guild management website for Throne & Liberty, designed to help guild leaders and members efficiently manage their guild operations.',
         url: 'https://fireball-tl.vercel.app/',
         siteName: 'FIREB4LL',
         images: [
             {
-                url: 'https://fireball-tl.vercel.app/assets/logo.png',
-                width: 160,
-                height: 160
+                url: 'https://fireball-tl.vercel.app/metadata/manifest.webp',
+                width: 1200,
+                height: 630
             }
         ]
     },
@@ -33,10 +33,13 @@ export const metadata: Metadata = {
     ],
 }
  
-export default async function LocaleLayout({children}: Readonly<{children: React.ReactNode}>) {
+const LocaleLayout = async ({children}: Readonly<{children: React.ReactNode}>) => {
     return (
-        <html style={{ height: '100%' }}>
-            <body style={{display: 'flex', flexDirection: 'column', minHeight: '100vh' }} className='bg-gradient-to-b from-gray-900 to-black'>
+        <html lang={'en'} style={{ height: '100%' }}>
+            <body
+                style={{display: 'flex', flexDirection: 'column', minHeight: '100vh' }}
+                className='bg-gradient-to-b from-gray-900 to-black'
+            >
                 <Navbar />
                 <main className='flex-grow pt-16'>
                     {children}
@@ -45,3 +48,5 @@ export default async function LocaleLayout({children}: Readonly<{children: React
         </html>
     );
 }
+
+export default LocaleLayout;

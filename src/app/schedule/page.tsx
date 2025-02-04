@@ -9,7 +9,7 @@ interface Schedule {
     dayInWeek: number; // 0 = Sunday, 3 = Wednesday, 6 = Saturday
     time: string;
     bosses: number;
-}
+};
 
 const SCHEDULES: Schedule[] = [
     { day: 'วันเสาร์', dayInWeek: 6, time: '20:30', bosses: 3 },

@@ -1,17 +1,18 @@
 {
   "name": "next-fireball",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Fireball TL is a guild management website for Throne & Liberty.",
+  "repository": "git@github.com:guysuvijak/fireball-tl.git",
+  "license": "MIT",
+  "keywords": ["open-source", "website", "typescript", "frontend", "nextjs", "static-site", "client-side", "no-database"],
+  "author": "MeteorVIIx | https://github.com/guysuvijak",
+  "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.3",
     "date-fns": "^4.1.0",
