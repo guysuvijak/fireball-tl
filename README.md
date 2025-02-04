@@ -29,7 +29,7 @@ Fireball TL is a static guild management website for Throne & Liberty. It is des
 - <img src="https://avatars.githubusercontent.com/u/67109815" title="Tailwind CSS" alt="tailwindcss" width="20" height="20"/> Tailwind CSS – Utility-first CSS framework for styling.
 - <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" title="TypeScript" alt="typscript" width="20" height="20"/> TypeScript – Strongly typed JavaScript for better maintainability.
 
-![Project Banner](/public/assets/boss-items/3-0.png)![Project Banner](/public/assets/boss-items/13-0.png)![Project Banner](/public/assets/boss-items/10-0.png)![Project Banner](/public/assets/boss-items/11-0.png)
+![Project Banner](/public/assets/boss-items/3-0.webp)![Project Banner](/public/assets/boss-items/13-0.webp)![Project Banner](/public/assets/boss-items/10-0.webp)![Project Banner](/public/assets/boss-items/11-0.webp)
 
 ## 🚀 Live Demo
 Try it here: [Fireball TL](https://fireball-tl.vercel.app)
@@ -37,6 +37,7 @@ Try it here: [Fireball TL](https://fireball-tl.vercel.app)
 ![Project Banner](/public/metadata/readme-4.png)
 ![Project Banner](/public/metadata/readme-5.png)
 ![Project Banner](/public/metadata/readme-6.png)
+![Project Banner](/public/metadata/readme-7.png)
 
 ## 📂 Installation & Setup
 
