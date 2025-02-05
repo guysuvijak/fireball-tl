@@ -1,80 +1,11 @@
 'use client';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { FaCheckCircle, FaUsers, FaTrophy, FaQuestionCircle } from 'react-icons/fa';
+import { FaQuestionCircle } from 'react-icons/fa';
 import { LuBookmark, LuInfo } from 'react-icons/lu';
 import { GoCheckCircleFill, GoXCircleFill } from 'react-icons/go';
-
-const container = {
-    hidden: { opacity: 0 },
-    show: {
-        opacity: 1,
-        transition: {
-            staggerChildren: 0.1
-        }
-    }
-};
-
-const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 }
-};
-
-interface Rule {
-    title: string;
-    icon: React.ReactNode;
-    description: string;
-};
-
-const MAIN_RULES: Rule[] = [
-    {
-        title: 'การจองไอเทม',
-        icon: <FaCheckCircle className='w-6 h-6 text-green-400' />,
-        description: 'สมาชิกมีสิทธิ์จองไอเทม 1 ชิ้นจากบอสใดก็ได้ เมื่อได้รับแล้วต้องต่อคิวใหม่ (จองผ่านดิสคอร์ด)'
-    },
-    {
-        title: 'สิทธิ์เลือกบอส',
-        icon: <FaTrophy className='w-6 h-6 text-yellow-400' />,
-        description: 'ผู้ที่มีแต้มส่วนร่วมสูงสุดจะได้สิทธิ์เลือกบอสที่ต้องการตี (7 คน)'
-    },
-    {
-        title: 'เงื่อนไขรับไอเทม',
-        icon: <FaUsers className='w-6 h-6 text-blue-400' />,
-        description: 'ผู้เข้าร่วมตีบอสต้องมีแต้มส่วนร่วม 4,000+ หรือไม่เข้าร่วมแต่มีแต้ม 6,000+ จึงมีสิทธิ์รับไอเทม'
-    }
-];
-
-interface FAQ {
-    question: string;
-    answer: string;
-};
-
-const FAQS: FAQ[] = [
-    {
-        question: 'จำนวนบอสที่ตีแต่ละวัน?',
-        answer: 'เสาร์ (3 ตัว), อาทิตย์ (4 ตัว)'
-    },
-    {
-        question: 'เงื่อนไขการรับไอเทมหากไม่ได้เข้าร่วม?',
-        answer: 'สำหรับคนที่ไม่มาตีบอสในวันที่ของดรอป ต้องมีแต้มส่วนร่วม 6,000 ขึ้นไป (ถ้าไม่ถึงของจะถูกส่งในคิวถัดไป / แต่คุณจะยังเป็นหัวคิวเหมือนเดิม)'
-    },
-    {
-        question: 'อยากเลือกบอสกิลด์ ที่ฉันต้องการจะตี ทำยังไง?',
-        answer: 'เก็บคะแนนส่วนร่วมกิลด์ให้ติดอันดับแรก ๆ ประจำสัปดาห์'
-    },
-    {
-        question: 'สามารถจองไอเทมจากบอสคนละตัวได้หรือไม่?',
-        answer: 'ไม่ได้ สามารถจองได้เพียง 1 ชิ้นเท่านั้น'
-    },
-    {
-        question: 'เลือกของบอส 2 ชิ้น แต่ดรอปจากบอสคนละตัวได้มั้ย?',
-        answer: 'ไม่ได้ เลือกได้แค่ชิ้นเดียวเท่านั้น'
-    },
-    {
-        question: 'ถ้าจองของชิ้นเดียวกันหลาย ๆ คน จะไม่รอคิวนานเกินไปหรอ?',
-        answer: 'นาน หากไม่ดรอปเลย แต่อย่าลืมว่า หากมีคนต้องการเยอะ แปลว่าจะมีคนเลือกบอสตัวนั้นเยอะด้วยเช่นกัน (Demand & Supply)'
-    }
-];
+import { containerVariant, itemVariant } from '@/configs/(app)/variant';
+import { bossRuleData, bossRuleFaqData } from '@/configs/(app)/boss-rule';
 
 const BossRule = () => {
     const [ expandedFaq, setExpandedFaq ] = useState<number | null>(null);
@@ -93,17 +24,17 @@ const BossRule = () => {
                 <div className='container mx-auto px-4 h-full'>
                     <div className='h-full overflow-auto pb-6'>
                         <motion.div
-                            variants={container}
+                            variants={containerVariant}
                             initial='hidden'
                             animate='show'
                             className='space-y-8'
                         >
                             {/* Main Rules */}
                             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-                                {MAIN_RULES.map((rule, index) => (
+                                {bossRuleData.map((rule, index) => (
                                     <motion.div
                                         key={index}
-                                        variants={item}
+                                        variants={itemVariant}
                                         className='bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden hover:bg-gray-800/90 transition-colors border border-blue-500/20'
                                     >
                                         <div className='p-6'>
@@ -123,7 +54,7 @@ const BossRule = () => {
 
                             {/* FAQs */}
                             <motion.div
-                                variants={item}
+                                variants={itemVariant}
                                 className='bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden border border-blue-500/20'
                             >
                                 <div className='p-6'>
@@ -132,7 +63,7 @@ const BossRule = () => {
                                         <h2 className='text-xl font-semibold text-white'>คำถามที่พบบ่อย</h2>
                                     </div>
                                     <div className='space-y-4'>
-                                        {FAQS.map((faq, index) => (
+                                        {bossRuleFaqData.map((faq, index) => (
                                             <div
                                                 key={index}
                                                 className='border border-gray-700 rounded-lg overflow-hidden bg-gray-900/50'
@@ -159,7 +90,7 @@ const BossRule = () => {
 
                             {/* Last Updated */}
                             <motion.div
-                                variants={item}
+                                variants={itemVariant}
                                 className='text-center text-sm text-gray-400 pb-6'
                             >
                                 อัพเดทล่าสุด: 08/11/2024

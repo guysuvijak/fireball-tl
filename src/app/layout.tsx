@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
+import { QueryProvider } from '@/app/QueryProvider';
 
 export const metadata: Metadata = {
     manifest: '/manifest.json',
@@ -40,10 +41,12 @@ const LocaleLayout = async ({children}: Readonly<{children: React.ReactNode}>) =
                 style={{display: 'flex', flexDirection: 'column', minHeight: '100vh' }}
                 className='bg-gradient-to-b from-gray-900 to-black'
             >
-                <Navbar />
-                <main className='flex-grow pt-16'>
-                    {children}
-                </main>
+                <QueryProvider>
+                    <Navbar />
+                    <main className='flex-grow pt-16'>
+                        {children}
+                    </main>
+                </QueryProvider>
             </body>
         </html>
     );

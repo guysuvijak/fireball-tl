@@ -7,6 +7,8 @@ const nextConfig = {
     },
     images: {
         unoptimized: true,
+        formats: ['image/webp'],
+        deviceSizes: [32, 64, 96],
         remotePatterns: [
             { hostname: 'www.google.com' },
             { hostname: 'cdn.discordapp.com' }

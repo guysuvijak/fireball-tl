@@ -3,33 +3,8 @@ import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { FaClock } from 'react-icons/fa';
 import { RiAliensFill } from 'react-icons/ri';
-
-interface Schedule {
-    day: string;
-    dayInWeek: number; // 0 = Sunday, 3 = Wednesday, 6 = Saturday
-    time: string;
-    bosses: number;
-};
-
-const SCHEDULES: Schedule[] = [
-    { day: 'วันเสาร์', dayInWeek: 6, time: '20:30', bosses: 3 },
-    { day: 'วันอาทิตย์', dayInWeek: 0, time: '20:30', bosses: 4 },
-];
-
-const container = {
-    hidden: { opacity: 0 },
-    show: {
-        opacity: 1,
-        transition: {
-            staggerChildren: 0.1
-        }
-    }
-};
-
-const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 }
-};
+import { scheduleData } from '@/configs/(app)/schedule';
+import { ScheduleProps } from '@/types/(app)';
 
 const getNextDateTime = (dayInWeek: number, timeStr: string): Date => {
     const [ hours, minutes ] = timeStr.split(':').map(Number);
@@ -79,7 +54,7 @@ const useCountdown = (targetDate: Date) => {
     return countdown;
 };
 
-const ScheduleItem = ({ schedule }: { schedule: Schedule }) => {
+const ScheduleItem = ({ schedule }: { schedule: ScheduleProps }) => {
     const nextDate = getNextDateTime(schedule.dayInWeek, schedule.time);
     const countdown = useCountdown(nextDate);
 
@@ -142,7 +117,7 @@ const Schedule = () => {
                 <div className='container mx-auto px-4 h-full'>
                     <div className='h-full overflow-auto pb-6'>
                         <motion.div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-12'>
-                            {SCHEDULES.map((schedule) => (
+                            {scheduleData.map((schedule) => (
                                 <ScheduleItem key={schedule.day} schedule={schedule} />
                             ))}
                         </motion.div>

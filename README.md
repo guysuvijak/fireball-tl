@@ -76,14 +76,17 @@ fireball-tl/
 │   │   └── update.json  # Static News Data -> Edit Here
 │   └── icon/            # Website Icon
 └── src/
-    ├── app/             # layout & page next.js
+    ├── app/             # layout & page Next.JS
     │   ├── boss-queue/  # boss-queue page
     │   ├── boss-rule/   # boss-rule page
-    │   ├── memeber/     # member page
+    │   ├── member/      # member page
     │   ├── position/    # position page
     │   └── schedule/    # schedule page
     ├── components/      # React components
-    └── styles/          # CSS styles
+    ├── configs/         # Configs File
+    ├── hooks/           # React Custom Hooks
+    ├── styles/          # CSS styles
+    └── types/           # TypeScript File
 ```
 
 ![Project Banner](/public/assets/boss/nirma-banner.webp)
@@ -115,6 +118,12 @@ Add new images for bosses, boss items, or weapons in this directory.
 📍 Files:
 src/app/layout.tsx – Modify general layout and metadata settings.
 public/manifest.json – Update website metadata for PWA settings.
+```
+
+```bash
+⚙️ Website Configs & Data
+📍 Files:
+src/configs/ – Modify Configs & Data in website.
 ```
 
 ![Project Banner](/public/assets/boss/junobote-banner.webp)

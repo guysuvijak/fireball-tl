@@ -7,42 +7,11 @@ import { formatDistanceToNow, format, parseISO } from 'date-fns';
 import { th } from 'date-fns/locale';
 import { FaCrown, FaUser, FaRankingStar } from 'react-icons/fa6';
 import { FaCalendarAlt } from 'react-icons/fa';
-
-interface QueueItem {
-    character: string;
-    note?: string;
-    date: string;
-};
-
-interface ItemDrop {
-    id: string;
-    name: string;
-    queues: QueueItem[];
-};
-
-interface Boss {
-    id: number;
-    name: string;
-    items: ItemDrop[];
-};
-
-const container = {
-    hidden: { opacity: 0 },
-    show: {
-        opacity: 1,
-        transition: {
-            staggerChildren: 0.1
-        }
-    }
-};
-
-const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 }
-};
+import { containerVariant, itemVariant } from '@/configs/(app)/variant';
+import { BossQueueProps } from '@/types/(app)';
 
 const BossQueue = () => {
-    const [ bosses, setBosses ] = useState<Boss[]>([]);
+    const [ bosses, setBosses ] = useState<BossQueueProps[]>([]);
     const [ expandedBoss, setExpandedBoss ] = useState<number | null>(null);
     const [ loading, setLoading ] = useState(true);
     const [ error, setError ] = useState<string | null>(null);
@@ -84,7 +53,7 @@ const BossQueue = () => {
         }
     };
 
-    const getTotalQueues = (bosses: Boss[]): number => {
+    const getTotalQueues = (bosses: BossQueueProps[]): number => {
         return bosses.reduce((total, boss) => {
             const bossQueues = boss.items.reduce((itemTotal, item) => {
                 return itemTotal + item.queues.length;
@@ -93,7 +62,7 @@ const BossQueue = () => {
         }, 0);
     };
 
-    const getPopularBosses = (bosses: Boss[]) => {
+    const getPopularBosses = (bosses: BossQueueProps[]) => {
         const bossQueues = bosses.map(boss => ({
             name: boss.name,
             queueCount: boss.items.reduce((total, item) => total + item.queues.length, 0)
@@ -145,7 +114,7 @@ const BossQueue = () => {
                         {/* เพิ่ม wrapper div สำหรับ scrolling */}
                         <div className='max-h-[calc(100vh-140px)] overflow-y-auto'>
                             <motion.div
-                                variants={container}
+                                variants={containerVariant}
                                 initial='hidden'
                                 animate='show'
                                 className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 pb-6'
@@ -153,7 +122,7 @@ const BossQueue = () => {
                                 {bosses.map((boss) => (
                                     <motion.div
                                         key={boss.id}
-                                        variants={item}
+                                        variants={itemVariant}
                                         className='bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden hover:bg-gray-800/90 transition-colors'
                                         layout
                                     >

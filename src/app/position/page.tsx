@@ -3,12 +3,8 @@ import { LuShield, LuSword, LuSwords } from 'react-icons/lu';
 import { TbBow } from 'react-icons/tb';
 import { GiCrossbow, GiCrystalWand } from 'react-icons/gi';
 import { FaBook } from 'react-icons/fa';
-
-interface Members {
-    name: string;
-    w1: string;
-    w2: string;
-};
+import { PositionMemberProps } from '@/types/(app)';
+import { positionMemberData } from '@/configs/(app)/position';
 
 const Position = () => {
     const getWeaponIcon = (weapon: string) => {
@@ -33,50 +29,14 @@ const Position = () => {
         }
     };
 
-    const positions = {
-        frontLine: {
-            title: 'Front Line',
-            members: [
-                { name: 'MeteorVIIx', w1: 'sns', w2: 'gs' },
-                { name: 'Penzilgon', w1: 'sns', w2: 'wand' },
-                { name: 'BR13', w1: 'sns', w2: 'gs' },
-                { name: '...', w1: 'wand', w2: 'staff' },
-                { name: '...', w1: 'wand', w2: 'staff' },
-                { name: '...', w1: 'wand', w2: 'staff' },
-            ]
-        },
-        midLine: {
-            title: 'Mid Line',
-            members: [
-                { name: 'Marshiez', w1: 'xbow', w2: 'gs' },
-                { name: 'LanaNewerth', w1: 'dagger', w2: 'xbow' },
-                { name: 'PaoQ', w1: 'dagger', w2: 'gs' },
-                { name: 'B3nZury', w1: 'bow', w2: 'dagger' },
-                { name: '...', w1: 'wand', w2: 'staff' },
-                { name: '...', w1: 'wand', w2: 'staff' },
-            ]
-        },
-        backLine: {
-            title: 'Back Line', 
-            members: [
-                { name: 'Kypriz', w1: 'bow', w2: 'staff' },
-                { name: 'SonTeeN', w1: 'bow', w2: 'staff' },
-                { name: 'StxywithZxro', w1: 'bow', w2: 'staff' },
-                { name: 'RaggaeWiz', w1: 'wand', w2: 'staff' },
-                { name: '...', w1: 'wand', w2: 'staff' },
-                { name: '...', w1: 'wand', w2: 'staff' },
-            ]
-        }
-    };
-
-    const PositionBox = ({ title, members }: {title: string, members: Members[]}) => (
+    const PositionBox = ({ title, members }: {title: string, members: PositionMemberProps[]}) => (
         <div className='w-full max-w-md mb-4 bg-gray-800 rounded-lg shadow-lg overflow-hidden'>
             <div className='p-4'>
                 <h2 className='text-lg font-bold mb-3 text-center text-gray-200'>{title}</h2>
                 <div className='grid grid-cols-2 gap-2'>
-                    {members.map((member: Members, idx: number) => (
+                    {members.map((member: PositionMemberProps, index: number) => (
                         <div 
-                            key={idx} 
+                            key={index} 
                             className='flex items-center space-x-2 p-2 bg-gray-600 rounded-md hover:bg-gray-500 transition-colors duration-200'
                         >
                             <div className='flex items-center space-x-1'>
@@ -100,7 +60,7 @@ const Position = () => {
                     Guild War Position Layout
                 </h2>
                 <div className='w-full max-w-md h-full flex flex-col items-center overflow-auto'>
-                    {Object.entries(positions).map(([key, data]) => (
+                    {Object.entries(positionMemberData).map(([key, data]) => (
                         <div key={key} className='w-full'>
                             <PositionBox title={data.title} members={data.members} />
                             {key !== 'backLine' && (

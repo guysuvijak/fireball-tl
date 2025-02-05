@@ -3,18 +3,13 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import { FiUsers, FiAward, FiActivity, FiStar } from 'react-icons/fi';
-
-interface Update {
-    id: number;
-    title: string;
-    date: string;
-};
+import { pageContainerVariant, pageItemVariant, pageLogoVariant, pageStatsData, pageQuickLinksData } from '@/configs/(app)/page';
+import { UpdateProps } from '@/types/(app)';
 
 const Index = () => {
-    const [ updates, setUpdates ] = useState<Update[]>([]);
-    const [ memberCount, setMemberCount ] = useState<number>(0);
-    const [ loading, setLoading ] = useState(true);
+    const [ updates, setUpdates ] = useState<UpdateProps[]>([]);
+    const [ memberCount, setMemberCount ] = useState(0);
+    const [ isLoading, setIsLoading ] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -29,74 +24,18 @@ const Index = () => {
             } catch (error) {
                 console.error('Error loading data:', error);
             } finally {
-                setLoading(false);
+                setIsLoading(false);
             }
         };
 
         fetchData();
     }, []);
 
-    const containerVariants = {
-        hidden: { opacity: 0 },
-        visible: {
-            opacity: 1,
-            transition: {
-                staggerChildren: 0.3
-            }
-        }
-    };
-
-    const itemVariants = {
-        hidden: { opacity: 0, y: 20 },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                duration: 0.5,
-                ease: 'easeOut'
-            }
-        }
-    };
-
-    const logoVariants = {
-        hidden: { scale: 0.8, opacity: 0 },
-        visible: {
-            scale: 1,
-            opacity: 1,
-            transition: {
-                duration: 0.6,
-                ease: 'easeOut'
-            }
-        },
-        hover: {
-            scale: 1.1,
-            rotate: 5,
-            transition: {
-                duration: 0.3,
-                ease: 'easeInOut'
-            }
-        }
-    };
-
-    const stats = [
-        { icon: <FiUsers />, label: 'Members', value: loading ? '...' : `${memberCount}` },
-        { icon: <FiAward />, label: 'Guild Level', value: '22' },
-        { icon: <FiActivity />, label: 'Active Player', value: '20-30' },
-        { icon: <FiStar />, label: 'Server', value: 'Taion' }
-    ];
-
-    const quickLinks = [
-        { name: 'Member List', path: '/member' },
-        { name: 'Guild War', path: '/position' },
-        { name: 'Schedule', path: '/schedule' },
-        { name: 'Discord', path: 'https://discord.gg/mYREQ3kdus' }
-    ];
-
     return (
         <div className='h-[calc(100vh-64px)] overflow-auto'>
             <motion.div 
                 className='flex flex-col w-full bg-gradient-to-b from-gray-900 to-black p-4'
-                variants={containerVariants}
+                variants={pageContainerVariant}
                 initial='hidden'
                 animate='visible'
             >
@@ -104,7 +43,7 @@ const Index = () => {
                 <motion.div className='flex flex-col items-center justify-center min-h-[50vh] py-12'>
                     <motion.div
                         className='relative'
-                        variants={logoVariants}
+                        variants={pageLogoVariant}
                         whileHover='hover'
                     >
                         <div className='relative w-32 h-32 sm:w-40 sm:h-40'>
@@ -128,7 +67,7 @@ const Index = () => {
                     </motion.div>
 
                     <motion.div
-                        variants={itemVariants}
+                        variants={pageItemVariant}
                         className='mt-8 text-center'
                     >
                         <h1 className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white tracking-wider'>
@@ -136,7 +75,7 @@ const Index = () => {
                         </h1>
                         <motion.p 
                             className='mt-4 text-gray-400 text-sm sm:text-base md:text-lg'
-                            variants={itemVariants}
+                            variants={pageItemVariant}
                         >
                             Together, we burn brighter!
                         </motion.p>
@@ -145,10 +84,10 @@ const Index = () => {
 
                 {/* Stats Section */}
                 <motion.div
-                    variants={itemVariants}
+                    variants={pageItemVariant}
                     className='grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto w-full mt-8 px-4'
                 >
-                    {stats.map((stat, index) => (
+                    {pageStatsData(isLoading, memberCount).map((stat, index) => (
                         <motion.div
                             key={index}
                             className='bg-gray-800/50 p-4 rounded-lg text-center'
@@ -165,10 +104,10 @@ const Index = () => {
 
                 {/* Quick Links */}
                 <motion.div
-                    variants={itemVariants}
+                    variants={pageItemVariant}
                     className='grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto w-full mt-8 px-4'
                 >
-                    {quickLinks.map((link, index) => (
+                    {pageQuickLinksData.map((link, index) => (
                         <Link href={link.path} key={index}>
                             <motion.div
                                 className='bg-gradient-to-r from-orange-600 to-red-600 p-0.5 rounded-lg'
@@ -184,12 +123,12 @@ const Index = () => {
 
                 {/* Latest Updates */}
                 <motion.div
-                    variants={itemVariants}
+                    variants={pageItemVariant}
                     className='max-w-4xl mx-auto w-full mt-8 mb-8 bg-gray-800/50 rounded-lg p-6 px-4'
                 >
                     <h2 className='text-white text-xl font-bold mb-4'>Latest Updates</h2>
                     <div className='space-y-3'>
-                        {loading ? (
+                        {isLoading ? (
                             <div className='text-gray-400 text-center py-4'>Loading updates...</div>
                         ) : updates.length > 0 ? (
                             updates.map((update) => (

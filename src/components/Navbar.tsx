@@ -6,48 +6,12 @@ import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MdOutlineMenu } from 'react-icons/md';
 import { IoMdClose } from 'react-icons/io';
-
-const navItems = [
-    { href: '/', label: 'หน้าหลัก' },
-    { href: '/member', label: 'รายชื่อสมาชิก' },
-    { href: '/boss-queue', label: 'คิวของบอส' },
-    { href: '/schedule', label: 'กำหนดการ' },
-    { href: '/boss-rule', label: 'กติกาแจกของบอส' },
-];
+import { navbarData, navbarVariant, navbarMobileVariant } from '@/configs/(components)/navbar';
 
 const Navbar = () => {
     const [ isOpen, setIsOpen ] = useState(false);
     const pathname = usePathname();
-
-    const navVariants = {
-        hidden: { opacity: 0, y: -20 },
-        visible: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                duration: 0.5,
-                ease: 'easeOut'
-            }
-        }
-    };
-
-    const mobileMenuVariants = {
-        closed: {
-            opacity: 0,
-            scale: 0.95,
-            transition: {
-                duration: 0.2
-            }
-        },
-        open: {
-            opacity: 1,
-            scale: 1,
-            transition: {
-                duration: 0.2
-            }
-        }
-    };
-
+    
     const isActive = (path: string) => {
         if (path === '/' && pathname === '/') return true;
         if (path !== '/' && pathname.startsWith(path)) return true;
@@ -59,7 +23,7 @@ const Navbar = () => {
             className='fixed w-full bg-[#3b3b3b96] backdrop-blur-sm z-50'
             initial='hidden'
             animate='visible'
-            variants={navVariants}
+            variants={navbarVariant}
         >
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between h-16'>
@@ -79,7 +43,7 @@ const Navbar = () => {
 
                     {/* Desktop Navigation */}
                     <div className='hidden md:flex items-center space-x-4'>
-                        {navItems.map((item) => (
+                        {navbarData.map((item) => (
                             <motion.div
                                 key={item.href}
                                 whileHover={{ scale: 1.05 }}
@@ -132,11 +96,11 @@ const Navbar = () => {
                         initial='closed'
                         animate='open'
                         exit='closed'
-                        variants={mobileMenuVariants}
+                        variants={navbarMobileVariant}
                         className='md:hidden'
                     >
                         <div className='px-2 pt-2 pb-3 space-y-1 bg-gray-900/95 backdrop-blur-sm'>
-                            {navItems.map((item) => (
+                            {navbarData.map((item) => (
                                 <motion.div
                                     key={item.href}
                                     whileTap={{ scale: 0.95 }}
